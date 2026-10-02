@@ -1,0 +1,29 @@
+{
+  "language": {
+    "selectorLabel": "Selecteer de interfacetaal",
+    "preview": "Voorbeeld"
+  },
+  "auth": {
+    "checkingTitle": "Uw sessie wordt gecontroleerd",
+    "checkingDescription": "Uw identiteit wordt bevestigd voordat de werkruimte wordt geladen.",
+    "unavailableTitle": "Identiteitsservice niet beschikbaar",
+    "unavailableDescription": "Uw sessie kon niet worden gevalideerd omdat de identiteitsservice niet beschikbaar is. Probeer het opnieuw zodra de service is hersteld.",
+    "loginTitle": "Aanmelden",
+    "loginDescription": "Gebruik uw platformaccount voor toegang tot uw geautoriseerde werkruimte.",
+    "emailLabel": "E-mailadres",
+    "passwordLabel": "Wachtwoord",
+    "invalidCredentials": "Het e-mailadres of wachtwoord is onjuist.",
+    "rateLimited": "Te veel aanmeldpogingen. Wacht even en probeer het opnieuw.",
+    "loginUnavailable": "De identiteitsservice is niet beschikbaar. Probeer het later opnieuw.",
+    "loginFailed": "Aanmelden kon niet worden voltooid. Probeer het opnieuw.",
+    "signingIn": "Bezig met aanmelden…",
+    "signIn": "Aanmelden",
+    "signedInAs": "Aangemeld als",
+    "signingOut": "Bezig met afmelden…",
+    "signOut": "Afmelden",
+    "logoutUnavailable": "Afmelden kon niet worden voltooid. Uw sessie blijft actief."
+  },
+  "ask": {
+    "noEvidence": "De kennisbank bevat onvoldoende bewijs om deze vraag te beantwoorden."
+  }
+}

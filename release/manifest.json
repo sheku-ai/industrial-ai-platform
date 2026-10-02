@@ -1,0 +1,14 @@
+{
+  "version": "1.6.0",
+  "alembic_head": "20260930_2870",
+  "supported_editions": [
+    "community",
+    "enterprise"
+  ],
+  "supported_postgresql_version": "16",
+  "upgrade_from": [
+    "1.5.2"
+  ],
+  "rollback_target": "1.5.2",
+  "database_rollback_policy": "restore_required_when_migration_is_not_reversible"
+}

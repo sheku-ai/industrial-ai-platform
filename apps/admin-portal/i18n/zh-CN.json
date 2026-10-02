@@ -1,0 +1,333 @@
+{
+  "language": {
+    "selectorLabel": "选择界面语言",
+    "preview": "预览"
+  },
+  "auth": {
+    "checkingTitle": "正在检查会话",
+    "checkingDescription": "正在确认您的身份，然后再加载工作区。",
+    "unavailableTitle": "身份服务不可用",
+    "unavailableDescription": "身份服务当前不可用，因此无法验证您的会话。服务恢复后请重试。",
+    "loginTitle": "登录",
+    "loginDescription": "使用您的平台账户访问已获授权的工作区。",
+    "emailLabel": "电子邮箱地址",
+    "passwordLabel": "密码",
+    "invalidCredentials": "电子邮箱地址或密码不正确。",
+    "rateLimited": "登录尝试次数过多。请稍候再试。",
+    "loginUnavailable": "身份服务不可用。请稍后重试。",
+    "loginFailed": "无法完成登录。请重试。",
+    "signingIn": "正在登录…",
+    "signIn": "登录",
+    "signedInAs": "当前登录身份",
+    "signingOut": "正在退出…",
+    "signOut": "退出登录",
+    "logoutUnavailable": "无法完成退出登录。您的会话仍处于活动状态。"
+  },
+  "common": {
+    "actions": {
+      "open": "打开",
+      "close": "关闭",
+      "dismiss": "取消",
+      "refresh": "刷新",
+      "refreshing": "正在刷新…",
+      "retry": "重试",
+      "save": "保存",
+      "cancel": "取消",
+      "add": "添加",
+      "remove": "删除",
+      "review": "查看",
+      "configure": "配置",
+      "search": "搜索",
+      "send": "发送",
+      "viewDetails": "查看详情"
+    },
+    "notAvailable": "不可用",
+    "notSelected": "未选择",
+    "none": "无",
+    "yes": "是",
+    "no": "否",
+    "loading": "正在加载…",
+    "noItems": "没有报告任何项目。",
+    "technicalId": "技术 ID",
+    "advancedDetails": "高级详情",
+    "status": "状态",
+    "actionColumn": "操作",
+    "name": "名称",
+    "type": "类型",
+    "code": "代码",
+    "description": "说明",
+    "created": "创建时间",
+    "updated": "更新时间",
+    "enabled": "已启用",
+    "ready": "就绪"
+  },
+  "formats": {
+    "durationSeconds": {
+      "one": "{value} 秒",
+      "other": "{value} 秒"
+    },
+    "durationMinutes": {
+      "one": "{value} 分钟",
+      "other": "{value} 分钟"
+    }
+  },
+  "navigation": {
+    "productNavigation": "产品导航",
+    "openNavigation": "打开导航",
+    "closeNavigation": "关闭导航",
+    "dismissOverlay": "关闭导航遮罩",
+    "dailyWork": "日常工作",
+    "manage": "管理",
+    "administration": "系统管理",
+    "platform": "平台",
+    "home": "首页",
+    "documents": "文档",
+    "search": "搜索",
+    "askAI": "询问 AI",
+    "knowledge": "知识",
+    "reports": "报告",
+    "integrations": "集成",
+    "organization": "组织",
+    "usersAccess": "用户与访问权限",
+    "aiConfiguration": "AI 配置",
+    "operations": "运维",
+    "governance": "治理",
+    "releaseReadiness": "发布与就绪度",
+    "capabilityInventory": "能力清单",
+    "assistantPermissionRequired": "所选主体没有所需的助手权限。请联系组织管理员进行分配。",
+    "selectOrganizationForAssistant": "请选择一个组织以评估助手访问权限。",
+    "preProduction": "预生产",
+    "aiOptional": "AI 服务可选"
+  },
+  "shell": {
+    "skipToContent": "跳到主要内容",
+    "activeOrganization": "当前组织",
+    "organizationContext": "组织上下文",
+    "organization": "组织",
+    "selectOrganization": "选择组织",
+    "refreshOrganizations": "刷新组织",
+    "loadingOrganizations": "正在加载…",
+    "accessSlow": "访问权限验证耗时超出预期。您仍可继续使用当前工作区。",
+    "noOrganizations": "没有产品组织符合当前筛选条件。请先创建或启用组织，再使用组织范围的工作区。",
+    "preparingWorkspace": "正在准备您的工作区",
+    "loadingAuthorizedOrganizations": "正在加载您有权访问的组织。",
+    "organizationsUnavailable": "组织不可用",
+    "getStarted": "开始使用",
+    "chooseOrganization": "选择组织",
+    "noOrganizationAvailable": "没有可用组织",
+    "chooseOrganizationHelp": "请先选择要使用的组织，再加载组织数据。",
+    "requestOrganizationHelp": "请联系平台管理员创建组织或授予访问权限。",
+    "stepOrganization": "选择或创建组织",
+    "stepDocuments": "添加文档",
+    "stepKnowledge": "搜索知识或提出问题",
+    "refreshingAccess": "正在刷新组织访问权限…"
+  },
+  "pages": {
+    "ai": {
+      "section": "系统管理",
+      "title": "AI 配置",
+      "description": "配置助手、模型、提示词和护栏，同时保持 AI 服务为可选能力。"
+    },
+    "analytics": {
+      "section": "管理",
+      "title": "报告",
+      "description": "查看文档、搜索和助手活动，以及需要关注的项目。"
+    },
+    "ask": {
+      "section": "日常工作",
+      "title": "询问 AI",
+      "description": "使用获授权的助手和当前组织的受治理知识提出问题。"
+    },
+    "connectors": {
+      "title": "连接器工作区",
+      "description": "以可治理、可追溯的方式管理、检查和运行连接器集成。"
+    },
+    "documents": {
+      "section": "日常工作",
+      "title": "文档",
+      "description": "添加和管理为 Enterprise Search 与助手提供支持的受治理文档。"
+    },
+    "governance": {
+      "section": "平台",
+      "title": "治理",
+      "description": "检查可追溯性、问责、运行时证据、数据血缘、策略就绪度和合规诊断。"
+    },
+    "integrations": {
+      "section": "管理",
+      "title": "集成",
+      "description": "查看集成能力、已配置连接及其支持 API。"
+    },
+    "knowledge": {
+      "section": "管理",
+      "title": "知识",
+      "description": "查看已发布并可用于搜索和询问 AI 的受治理知识。"
+    },
+    "models": {
+      "title": "模型与提供商中心",
+      "description": "检查模型清单、提供商就绪度、网关状态、助手使用情况、策略关系及不暴露密钥的 AI 配置诊断。"
+    },
+    "operations": {
+      "section": "平台",
+      "title": "平台运维",
+      "description": "先查看运行状况，再按需打开专用运行时控制和诊断。"
+    },
+    "organization": {
+      "section": "系统管理",
+      "title": "组织",
+      "description": "选择所需的管理区域，而无需加载无关的平台域。"
+    },
+    "product": {
+      "title": "产品集成审查",
+      "description": "从工作区、运行时、参考租户和生产就绪度等方面，将平台作为统一的 Enterprise SaaS 产品进行验证。"
+    },
+    "production": {
+      "title": "发布与就绪度",
+      "description": "将候选发布版本资格与生产就绪度作为两个独立且有证据支持的产品状态进行评估。"
+    },
+    "runtime": {
+      "title": "执行运行时",
+      "description": "检查租户范围内的执行、尝试、租约、生命周期事件和故障状态。"
+    },
+    "scheduler": {
+      "title": "调度器与后台服务中心",
+      "description": "检查调度器、工作进程、租约、重试、运行时执行、后台流水线和运行就绪度。"
+    },
+    "search": {
+      "section": "日常工作",
+      "title": "搜索",
+      "description": "在当前组织的受治理知识中查找文档和答案。"
+    },
+    "security": {
+      "section": "系统管理",
+      "title": "用户与访问权限",
+      "description": "管理角色、权限、策略、分配和实际组织访问权限。"
+    },
+    "workflows": {
+      "section": "平台",
+      "title": "能力清单",
+      "description": "查看平台可用能力及支持其当前状态的证据。"
+    }
+  },
+  "ask": {
+    "conversation": "对话聊天",
+    "conversationHelp": "选择可用助手、提出问题并查看回答所使用的来源。",
+    "assistant": "助手",
+    "conversationLabel": "对话",
+    "newConversation": "开始新对话",
+    "conversationTurns": {
+      "one": "包含 {count} 个轮次的对话",
+      "other": "包含 {count} 个轮次的对话"
+    },
+    "noAssistants": "没有可用助手",
+    "selectAssistant": "选择助手",
+    "sourceAvailabilityPending": "助手的来源可用性将在此显示。",
+    "sourcesAvailable": {
+      "zero": "没有可用的组织知识来源。",
+      "one": "正在使用 {count} 个组织知识来源。",
+      "other": "正在使用 {count} 个组织知识来源。"
+    },
+    "assignedSources": {
+      "one": "已为此助手明确分配 {count} 个知识来源。",
+      "other": "已为此助手明确分配 {count} 个知识来源。"
+    },
+    "howProduced": "回答的生成方式",
+    "providerRequired": "此助手需要已配置的 AI 提供商。",
+    "providerOptional": "此助手可选择使用外部 AI 提供商。",
+    "searchCondition": "只有当所选助手请求且存在可搜索知识时，才会使用 Enterprise Search。",
+    "noMessages": "此对话中没有消息",
+    "noMessagesHelp": "选择助手并发送消息以开始。",
+    "loadingConversation": "正在加载已保存的对话…",
+    "organization": "组织：{name}",
+    "message": "消息",
+    "messagePlaceholder": "使用受治理的平台知识提出问题",
+    "continueConversation": "继续对话",
+    "startConversation": "开始对话",
+    "processing": "正在处理消息…",
+    "sources": "来源",
+    "sourceTitle": "来源 {number}",
+    "you": "您",
+    "noEvidence": "知识库中没有足够的证据来回答此问题。",
+    "errors": {
+      "selectOrganization": "请先选择组织，再加载对话。",
+      "historyUnavailable": "无法加载对话历史记录。",
+      "messageFailed": "无法处理此消息。",
+      "conversationStopped": "无法继续对话。"
+    }
+  },
+  "status": {
+    "active": "活跃",
+    "blocked": "已阻止",
+    "completed": "已完成",
+    "configured": "已配置",
+    "degraded": "需要关注",
+    "disabled": "已禁用",
+    "enabled": "已启用",
+    "expired": "已过期",
+    "failed": "需要关注",
+    "indexed": "可搜索",
+    "notConfigured": "未配置",
+    "notEligible": "不符合条件",
+    "notEvaluated": "未评估",
+    "pending": "进行中",
+    "processed": "已处理",
+    "published": "已发布",
+    "ready": "就绪",
+    "recorded": "已保存",
+    "registered": "已登记",
+    "searchable": "可搜索",
+    "unavailable": "不可用"
+  },
+  "feedback": {
+    "documentTypesLoading": "正在从 API 加载文档类型…",
+    "documentTypesLoadFailed": "无法加载文档类型。",
+    "documentTypeDeleteFailed": "无法删除文档类型。",
+    "documentTypesPersistFailed": "无法保存文档类型。",
+    "documentAdded": "文档已添加。其持久化生命周期状态现已显示在下方。",
+    "documentAddFailed": "无法添加文档。",
+    "selectOrganizationForOperations": "请选择一个组织以加载运行状态。",
+    "operationalHealthUnavailable": "运行健康状态不可用。",
+    "operationalHealthRefreshFailed": "无法刷新运行健康状态。",
+    "reconciliationPreviewFailed": "协调预览失败。",
+    "reconciliationRunFailed": "协调运行失败。",
+    "workersLoading": "正在加载工作进程…",
+    "workersLoadFailed": "无法加载工作进程。",
+    "workerCommandFailed": "工作进程命令失败。",
+    "workerHistoryFailed": "无法加载工作进程历史记录。",
+    "workerSummaryLoading": "正在加载工作进程摘要…",
+    "workerSummaryFailed": "无法加载工作进程摘要。",
+    "platformStateLoading": "正在加载平台 API 状态…",
+    "defaultNodeLabel": "节点",
+    "platformStateLoadFailed": "无法加载平台 API 状态。",
+    "organizationNodeRemoveFailed": "无法移除组织节点。",
+    "organizationGraphPersistFailed": "无法保存组织图。",
+    "releaseGovernanceUnavailable": "发布治理不可用。",
+    "governedReleaseActionFailed": "无法完成受治理的发布操作。",
+    "executionRuntimeLoading": "正在加载执行运行时…",
+    "runtimeExecutionsLoadFailed": "无法加载运行时执行记录。",
+    "runtimeExecutionInspectFailed": "无法检查运行时执行记录。",
+    "runtimeExecutionsRefreshFailed": "无法刷新运行时执行记录。",
+    "loadFailed": "加载失败。",
+    "actionFailed": "操作失败。",
+    "aiStudioRuntimeUnavailable": "AI Studio 运行时不可用。",
+    "askAiLoadFailed": "无法加载 Ask AI。",
+    "reportingAnalyticsUnavailable": "报告与分析中心不可用。",
+    "connectorWorkspaceUnavailable": "连接器工作区不可用。",
+    "documentsLoadFailed": "无法加载文档。",
+    "governanceRuntimeUnavailable": "治理中心运行时不可用。",
+    "integrationsUnavailable": "集成功能不可用。",
+    "knowledgeLoadFailed": "无法加载 Knowledge。",
+    "modelProviderRuntimeUnavailable": "模型与提供商中心运行时不可用。",
+    "operationsRuntimeUnavailable": "运营中心运行时不可用。",
+    "organizationsLoading": "正在加载组织...",
+    "administrationRuntimeUnavailable": "管理运行时不可用。",
+    "organizationsUnavailable": "组织不可用。",
+    "accessEvaluationFailed": "无法评估访问权限。",
+    "productIntegrationRuntimeUnavailable": "产品集成运行时不可用。",
+    "schedulerBackgroundServicesUnavailable": "调度器与后台服务中心不可用。",
+    "selectOrganization": "请选择一个组织。",
+    "enterpriseSearchQueryFailed": "Enterprise Search 无法完成查询。",
+    "searchDiscoveryRuntimeUnavailable": "Search Discovery 运行时不可用。",
+    "securityRuntimeUnavailable": "安全中心运行时不可用。",
+    "capabilityInventoryUnavailable": "能力清单不可用。"
+  }
+}

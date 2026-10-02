@@ -1,0 +1,29 @@
+{
+  "language": {
+    "selectorLabel": "Wybierz język interfejsu",
+    "preview": "Podgląd"
+  },
+  "auth": {
+    "checkingTitle": "Sprawdzanie sesji",
+    "checkingDescription": "Potwierdzanie tożsamości przed załadowaniem obszaru roboczego.",
+    "unavailableTitle": "Usługa tożsamości jest niedostępna",
+    "unavailableDescription": "Nie można zweryfikować sesji, ponieważ usługa tożsamości jest niedostępna. Spróbuj ponownie po przywróceniu usługi.",
+    "loginTitle": "Zaloguj się",
+    "loginDescription": "Użyj konta platformy, aby uzyskać dostęp do autoryzowanego obszaru roboczego.",
+    "emailLabel": "Adres e-mail",
+    "passwordLabel": "Hasło",
+    "invalidCredentials": "Adres e-mail lub hasło są nieprawidłowe.",
+    "rateLimited": "Zbyt wiele prób logowania. Poczekaj chwilę i spróbuj ponownie.",
+    "loginUnavailable": "Usługa tożsamości jest niedostępna. Spróbuj ponownie później.",
+    "loginFailed": "Nie udało się zalogować. Spróbuj ponownie.",
+    "signingIn": "Logowanie…",
+    "signIn": "Zaloguj się",
+    "signedInAs": "Zalogowano jako",
+    "signingOut": "Wylogowywanie…",
+    "signOut": "Wyloguj się",
+    "logoutUnavailable": "Nie udało się wylogować. Sesja pozostaje aktywna."
+  },
+  "ask": {
+    "noEvidence": "W bazie wiedzy nie ma wystarczających dowodów, aby odpowiedzieć na to pytanie."
+  }
+}

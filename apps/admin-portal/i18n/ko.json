@@ -1,0 +1,333 @@
+{
+  "language": {
+    "selectorLabel": "인터페이스 언어 선택",
+    "preview": "미리 보기"
+  },
+  "auth": {
+    "checkingTitle": "세션 확인 중",
+    "checkingDescription": "작업 공간을 불러오기 전에 사용자의 신원을 확인하고 있습니다.",
+    "unavailableTitle": "ID 서비스를 사용할 수 없음",
+    "unavailableDescription": "ID 서비스를 사용할 수 없어 세션을 검증하지 못했습니다. 서비스가 복구되면 다시 시도하세요.",
+    "loginTitle": "로그인",
+    "loginDescription": "플랫폼 계정으로 승인된 작업 공간에 접속하세요.",
+    "emailLabel": "이메일 주소",
+    "passwordLabel": "비밀번호",
+    "invalidCredentials": "이메일 주소 또는 비밀번호가 올바르지 않습니다.",
+    "rateLimited": "로그인 시도가 너무 많습니다. 잠시 기다린 후 다시 시도하세요.",
+    "loginUnavailable": "ID 서비스를 사용할 수 없습니다. 나중에 다시 시도하세요.",
+    "loginFailed": "로그인을 완료할 수 없습니다. 다시 시도하세요.",
+    "signingIn": "로그인 중…",
+    "signIn": "로그인",
+    "signedInAs": "로그인 계정",
+    "signingOut": "로그아웃 중…",
+    "signOut": "로그아웃",
+    "logoutUnavailable": "로그아웃을 완료할 수 없습니다. 세션은 계속 활성 상태입니다."
+  },
+  "common": {
+    "actions": {
+      "open": "열기",
+      "close": "닫기",
+      "dismiss": "해제",
+      "refresh": "새로 고침",
+      "refreshing": "새로 고치는 중…",
+      "retry": "다시 시도",
+      "save": "저장",
+      "cancel": "취소",
+      "add": "추가",
+      "remove": "삭제",
+      "review": "검토",
+      "configure": "구성",
+      "search": "검색",
+      "send": "보내기",
+      "viewDetails": "세부 정보 보기"
+    },
+    "notAvailable": "사용할 수 없음",
+    "notSelected": "선택되지 않음",
+    "none": "없음",
+    "yes": "예",
+    "no": "아니요",
+    "loading": "불러오는 중…",
+    "noItems": "보고된 항목이 없습니다.",
+    "technicalId": "기술 ID",
+    "advancedDetails": "고급 세부 정보",
+    "status": "상태",
+    "actionColumn": "작업",
+    "name": "이름",
+    "type": "유형",
+    "code": "코드",
+    "description": "설명",
+    "created": "생성됨",
+    "updated": "업데이트됨",
+    "enabled": "활성화됨",
+    "ready": "준비됨"
+  },
+  "formats": {
+    "durationSeconds": {
+      "one": "{value}초",
+      "other": "{value}초"
+    },
+    "durationMinutes": {
+      "one": "{value}분",
+      "other": "{value}분"
+    }
+  },
+  "navigation": {
+    "productNavigation": "제품 탐색",
+    "openNavigation": "탐색 열기",
+    "closeNavigation": "탐색 닫기",
+    "dismissOverlay": "탐색 오버레이 닫기",
+    "dailyWork": "일상 업무",
+    "manage": "관리",
+    "administration": "시스템 관리",
+    "platform": "플랫폼",
+    "home": "홈",
+    "documents": "문서",
+    "search": "검색",
+    "askAI": "AI에 질문",
+    "knowledge": "지식",
+    "reports": "보고서",
+    "integrations": "통합",
+    "organization": "조직",
+    "usersAccess": "사용자 및 액세스",
+    "aiConfiguration": "AI 구성",
+    "operations": "운영",
+    "governance": "거버넌스",
+    "releaseReadiness": "릴리스 및 준비 상태",
+    "capabilityInventory": "기능 인벤토리",
+    "assistantPermissionRequired": "선택한 주체에 필요한 어시스턴트 권한이 없습니다. 조직 관리자에게 권한 할당을 요청하세요.",
+    "selectOrganizationForAssistant": "어시스턴트 액세스를 평가할 조직을 선택하세요.",
+    "preProduction": "사전 프로덕션",
+    "aiOptional": "AI 서비스 선택 사항"
+  },
+  "shell": {
+    "skipToContent": "주요 콘텐츠로 이동",
+    "activeOrganization": "활성 조직",
+    "organizationContext": "조직 컨텍스트",
+    "organization": "조직",
+    "selectOrganization": "조직 선택",
+    "refreshOrganizations": "조직 새로 고침",
+    "loadingOrganizations": "불러오는 중…",
+    "accessSlow": "액세스 검증이 예상보다 오래 걸리고 있습니다. 현재 작업 공간을 계속 사용할 수 있습니다.",
+    "noOrganizations": "현재 필터와 일치하는 제품 조직이 없습니다. 조직 범위 작업 공간을 사용하기 전에 조직을 생성하거나 활성화하세요.",
+    "preparingWorkspace": "작업 공간 준비 중",
+    "loadingAuthorizedOrganizations": "액세스 권한이 있는 조직을 불러오는 중입니다.",
+    "organizationsUnavailable": "조직을 사용할 수 없음",
+    "getStarted": "시작하기",
+    "chooseOrganization": "조직 선택",
+    "noOrganizationAvailable": "사용 가능한 조직이 없음",
+    "chooseOrganizationHelp": "조직 데이터를 불러오기 전에 작업할 조직을 선택하세요.",
+    "requestOrganizationHelp": "플랫폼 관리자에게 조직 생성 또는 액세스 권한 부여를 요청하세요.",
+    "stepOrganization": "조직 선택 또는 생성",
+    "stepDocuments": "문서 추가",
+    "stepKnowledge": "지식 검색 또는 질문",
+    "refreshingAccess": "조직 액세스 새로 고치는 중…"
+  },
+  "pages": {
+    "ai": {
+      "section": "시스템 관리",
+      "title": "AI 구성",
+      "description": "AI 서비스를 선택 사항으로 유지하면서 어시스턴트, 모델, 프롬프트 및 가드레일을 구성합니다."
+    },
+    "analytics": {
+      "section": "관리",
+      "title": "보고서",
+      "description": "문서, 검색 및 어시스턴트 활동과 주의가 필요한 항목을 검토합니다."
+    },
+    "ask": {
+      "section": "일상 업무",
+      "title": "AI에 질문",
+      "description": "승인된 어시스턴트와 활성 조직의 관리형 지식을 사용해 질문합니다."
+    },
+    "connectors": {
+      "title": "커넥터 작업 공간",
+      "description": "거버넌스와 추적성을 갖춘 커넥터 통합을 관리, 검사 및 운영합니다."
+    },
+    "documents": {
+      "section": "일상 업무",
+      "title": "문서",
+      "description": "Enterprise Search와 어시스턴트에 사용되는 관리형 문서를 추가하고 관리합니다."
+    },
+    "governance": {
+      "section": "플랫폼",
+      "title": "거버넌스",
+      "description": "추적성, 책임, 런타임 증거, 계보, 정책 준비 상태 및 규정 준수 진단을 검사합니다."
+    },
+    "integrations": {
+      "section": "관리",
+      "title": "통합",
+      "description": "통합 기능, 구성된 연결 및 이를 지원하는 API를 검토합니다."
+    },
+    "knowledge": {
+      "section": "관리",
+      "title": "지식",
+      "description": "검색 및 AI 질문에 사용할 수 있도록 게시된 관리형 지식을 확인합니다."
+    },
+    "models": {
+      "title": "모델 및 공급자 센터",
+      "description": "모델 인벤토리, 공급자 준비 상태, 게이트웨이 상태, 어시스턴트 사용, 정책 관계 및 비밀을 노출하지 않는 AI 구성 진단을 검사합니다."
+    },
+    "operations": {
+      "section": "플랫폼",
+      "title": "플랫폼 운영",
+      "description": "운영 상태를 먼저 검토한 후 필요한 전문 런타임 제어 및 진단을 엽니다."
+    },
+    "organization": {
+      "section": "시스템 관리",
+      "title": "조직",
+      "description": "관련 없는 플랫폼 도메인을 불러오지 않고 필요한 관리 영역을 선택합니다."
+    },
+    "product": {
+      "title": "제품 통합 검토",
+      "description": "작업 공간, 런타임, 참조 테넌트 및 프로덕션 준비 상태 전반에서 플랫폼을 통합 Enterprise SaaS 제품으로 검증합니다."
+    },
+    "production": {
+      "title": "릴리스 및 준비 상태",
+      "description": "릴리스 후보 적격성과 프로덕션 준비 상태를 증거 기반의 별도 제품 상태로 평가합니다."
+    },
+    "runtime": {
+      "title": "실행 런타임",
+      "description": "테넌트 범위 실행, 시도, 임대, 수명 주기 이벤트 및 실패 상태를 검사합니다."
+    },
+    "scheduler": {
+      "title": "스케줄러 및 백그라운드 서비스 센터",
+      "description": "스케줄러, 워커, 임대, 재시도, 런타임 실행, 백그라운드 파이프라인 및 운영 준비 상태를 검사합니다."
+    },
+    "search": {
+      "section": "일상 업무",
+      "title": "검색",
+      "description": "활성 조직의 관리형 지식에서 문서와 답변을 찾습니다."
+    },
+    "security": {
+      "section": "시스템 관리",
+      "title": "사용자 및 액세스",
+      "description": "역할, 권한, 정책, 할당 및 유효한 조직 액세스를 관리합니다."
+    },
+    "workflows": {
+      "section": "플랫폼",
+      "title": "기능 인벤토리",
+      "description": "플랫폼에서 사용할 수 있는 기능과 현재 상태를 뒷받침하는 증거를 검토합니다."
+    }
+  },
+  "ask": {
+    "conversation": "대화 채팅",
+    "conversationHelp": "사용 가능한 어시스턴트를 선택하고 질문한 뒤 답변에 사용된 출처를 검토합니다.",
+    "assistant": "어시스턴트",
+    "conversationLabel": "대화",
+    "newConversation": "새 대화 시작",
+    "conversationTurns": {
+      "one": "{count}개 턴이 있는 대화",
+      "other": "{count}개 턴이 있는 대화"
+    },
+    "noAssistants": "사용 가능한 어시스턴트가 없음",
+    "selectAssistant": "어시스턴트 선택",
+    "sourceAvailabilityPending": "어시스턴트의 출처 가용성이 여기에 표시됩니다.",
+    "sourcesAvailable": {
+      "zero": "사용 가능한 조직 지식 출처가 없습니다.",
+      "one": "조직 지식 출처 {count}개를 사용 중입니다.",
+      "other": "조직 지식 출처 {count}개를 사용 중입니다."
+    },
+    "assignedSources": {
+      "one": "이 어시스턴트에 지식 출처 {count}개가 명시적으로 할당되었습니다.",
+      "other": "이 어시스턴트에 지식 출처 {count}개가 명시적으로 할당되었습니다."
+    },
+    "howProduced": "답변 생성 방식",
+    "providerRequired": "이 어시스턴트에는 구성된 AI 공급자가 필요합니다.",
+    "providerOptional": "이 어시스턴트에서는 외부 AI 공급자가 선택 사항입니다.",
+    "searchCondition": "Enterprise Search는 선택한 어시스턴트가 요청하고 검색 가능한 지식이 있을 때만 사용됩니다.",
+    "noMessages": "이 대화에 메시지가 없음",
+    "noMessagesHelp": "어시스턴트를 선택하고 메시지를 보내 시작하세요.",
+    "loadingConversation": "저장된 대화 불러오는 중…",
+    "organization": "조직: {name}",
+    "message": "메시지",
+    "messagePlaceholder": "관리형 플랫폼 지식을 사용해 질문하세요",
+    "continueConversation": "대화 계속",
+    "startConversation": "대화 시작",
+    "processing": "메시지 처리 중…",
+    "sources": "출처",
+    "sourceTitle": "출처 {number}",
+    "you": "나",
+    "noEvidence": "이 질문에 답할 수 있는 충분한 근거가 지식 베이스에 없습니다.",
+    "errors": {
+      "selectOrganization": "대화를 불러오기 전에 조직을 선택하세요.",
+      "historyUnavailable": "대화 기록을 불러올 수 없습니다.",
+      "messageFailed": "메시지를 처리할 수 없습니다.",
+      "conversationStopped": "대화를 계속할 수 없습니다."
+    }
+  },
+  "status": {
+    "active": "활성",
+    "blocked": "차단됨",
+    "completed": "완료됨",
+    "configured": "구성됨",
+    "degraded": "주의 필요",
+    "disabled": "비활성화됨",
+    "enabled": "활성화됨",
+    "expired": "만료됨",
+    "failed": "주의 필요",
+    "indexed": "검색 가능",
+    "notConfigured": "구성되지 않음",
+    "notEligible": "적격하지 않음",
+    "notEvaluated": "평가되지 않음",
+    "pending": "진행 중",
+    "processed": "처리됨",
+    "published": "게시됨",
+    "ready": "준비됨",
+    "recorded": "저장됨",
+    "registered": "등록됨",
+    "searchable": "검색 가능",
+    "unavailable": "사용할 수 없음"
+  },
+  "feedback": {
+    "documentTypesLoading": "API에서 문서 유형을 불러오는 중…",
+    "documentTypesLoadFailed": "문서 유형을 불러오지 못했습니다.",
+    "documentTypeDeleteFailed": "문서 유형을 삭제할 수 없습니다.",
+    "documentTypesPersistFailed": "문서 유형을 저장하지 못했습니다.",
+    "documentAdded": "문서가 추가되었습니다. 저장된 수명 주기 상태를 아래에서 확인할 수 있습니다.",
+    "documentAddFailed": "문서를 추가할 수 없습니다.",
+    "selectOrganizationForOperations": "운영 상태를 불러올 조직을 선택하세요.",
+    "operationalHealthUnavailable": "운영 상태를 사용할 수 없습니다.",
+    "operationalHealthRefreshFailed": "운영 상태를 새로 고치지 못했습니다.",
+    "reconciliationPreviewFailed": "조정 미리 보기에 실패했습니다.",
+    "reconciliationRunFailed": "조정 실행에 실패했습니다.",
+    "workersLoading": "워커를 불러오는 중…",
+    "workersLoadFailed": "워커를 불러오지 못했습니다.",
+    "workerCommandFailed": "워커 명령에 실패했습니다.",
+    "workerHistoryFailed": "워커 기록을 불러오지 못했습니다.",
+    "workerSummaryLoading": "워커 요약을 불러오는 중…",
+    "workerSummaryFailed": "워커 요약을 불러오지 못했습니다.",
+    "platformStateLoading": "플랫폼 API 상태를 불러오는 중…",
+    "defaultNodeLabel": "노드",
+    "platformStateLoadFailed": "플랫폼 API 상태를 불러오지 못했습니다.",
+    "organizationNodeRemoveFailed": "조직 노드를 제거할 수 없습니다.",
+    "organizationGraphPersistFailed": "조직 그래프를 저장하지 못했습니다.",
+    "releaseGovernanceUnavailable": "릴리스 거버넌스를 사용할 수 없습니다.",
+    "governedReleaseActionFailed": "관리되는 릴리스 작업을 완료할 수 없습니다.",
+    "executionRuntimeLoading": "실행 런타임을 불러오는 중…",
+    "runtimeExecutionsLoadFailed": "런타임 실행을 불러오지 못했습니다.",
+    "runtimeExecutionInspectFailed": "런타임 실행을 검사하지 못했습니다.",
+    "runtimeExecutionsRefreshFailed": "런타임 실행을 새로 고치지 못했습니다.",
+    "loadFailed": "불러오기에 실패했습니다.",
+    "actionFailed": "작업에 실패했습니다.",
+    "aiStudioRuntimeUnavailable": "AI Studio 런타임을 사용할 수 없습니다.",
+    "askAiLoadFailed": "Ask AI를 불러오지 못했습니다.",
+    "reportingAnalyticsUnavailable": "보고 및 분석 센터를 사용할 수 없습니다.",
+    "connectorWorkspaceUnavailable": "커넥터 워크스페이스를 사용할 수 없습니다.",
+    "documentsLoadFailed": "문서를 불러오지 못했습니다.",
+    "governanceRuntimeUnavailable": "거버넌스 센터 런타임을 사용할 수 없습니다.",
+    "integrationsUnavailable": "통합을 사용할 수 없습니다.",
+    "knowledgeLoadFailed": "Knowledge를 불러오지 못했습니다.",
+    "modelProviderRuntimeUnavailable": "모델 및 공급자 센터 런타임을 사용할 수 없습니다.",
+    "operationsRuntimeUnavailable": "운영 센터 런타임을 사용할 수 없습니다.",
+    "organizationsLoading": "조직을 불러오는 중...",
+    "administrationRuntimeUnavailable": "관리 런타임을 사용할 수 없습니다.",
+    "organizationsUnavailable": "조직을 사용할 수 없습니다.",
+    "accessEvaluationFailed": "액세스를 평가하지 못했습니다.",
+    "productIntegrationRuntimeUnavailable": "제품 통합 런타임을 사용할 수 없습니다.",
+    "schedulerBackgroundServicesUnavailable": "스케줄러 및 백그라운드 서비스 센터를 사용할 수 없습니다.",
+    "selectOrganization": "조직을 선택하세요.",
+    "enterpriseSearchQueryFailed": "Enterprise Search가 쿼리를 완료하지 못했습니다.",
+    "searchDiscoveryRuntimeUnavailable": "Search Discovery 런타임을 사용할 수 없습니다.",
+    "securityRuntimeUnavailable": "보안 센터 런타임을 사용할 수 없습니다.",
+    "capabilityInventoryUnavailable": "기능 인벤토리를 사용할 수 없습니다."
+  }
+}

@@ -1,0 +1,333 @@
+{
+  "language": {
+    "selectorLabel": "اختيار لغة الواجهة",
+    "preview": "معاينة"
+  },
+  "auth": {
+    "checkingTitle": "جارٍ التحقق من جلستك",
+    "checkingDescription": "جارٍ تأكيد هويتك قبل تحميل مساحة العمل.",
+    "unavailableTitle": "خدمة الهوية غير متاحة",
+    "unavailableDescription": "تعذر التحقق من جلستك لأن خدمة الهوية غير متاحة. حاول مجددًا بعد استعادة الخدمة.",
+    "loginTitle": "تسجيل الدخول",
+    "loginDescription": "استخدم حساب المنصة للوصول إلى مساحة العمل المصرح بها.",
+    "emailLabel": "عنوان البريد الإلكتروني",
+    "passwordLabel": "كلمة المرور",
+    "invalidCredentials": "عنوان البريد الإلكتروني أو كلمة المرور غير صحيح.",
+    "rateLimited": "محاولات تسجيل دخول كثيرة جدًا. انتظر قليلًا ثم حاول مجددًا.",
+    "loginUnavailable": "خدمة الهوية غير متاحة. حاول مجددًا لاحقًا.",
+    "loginFailed": "تعذر إكمال تسجيل الدخول. حاول مجددًا.",
+    "signingIn": "جارٍ تسجيل الدخول…",
+    "signIn": "تسجيل الدخول",
+    "signedInAs": "تم تسجيل الدخول باسم",
+    "signingOut": "جارٍ تسجيل الخروج…",
+    "signOut": "تسجيل الخروج",
+    "logoutUnavailable": "تعذر إكمال تسجيل الخروج. ستظل جلستك نشطة."
+  },
+  "common": {
+    "actions": {
+      "open": "فتح",
+      "close": "إغلاق",
+      "dismiss": "تجاهل",
+      "refresh": "تحديث",
+      "refreshing": "جارٍ التحديث…",
+      "retry": "إعادة المحاولة",
+      "save": "حفظ",
+      "cancel": "إلغاء",
+      "add": "إضافة",
+      "remove": "إزالة",
+      "review": "مراجعة",
+      "configure": "تهيئة",
+      "search": "بحث",
+      "send": "إرسال",
+      "viewDetails": "عرض التفاصيل"
+    },
+    "notAvailable": "غير متاح",
+    "notSelected": "غير محدد",
+    "none": "لا يوجد",
+    "yes": "نعم",
+    "no": "لا",
+    "loading": "جارٍ التحميل…",
+    "noItems": "لم يتم الإبلاغ عن عناصر.",
+    "technicalId": "المعرّف التقني",
+    "advancedDetails": "تفاصيل متقدمة",
+    "status": "الحالة",
+    "actionColumn": "الإجراءات",
+    "name": "الاسم",
+    "type": "النوع",
+    "code": "الرمز",
+    "description": "الوصف",
+    "created": "تاريخ الإنشاء",
+    "updated": "تاريخ التحديث",
+    "enabled": "مفعّل",
+    "ready": "جاهز"
+  },
+  "formats": {
+    "durationSeconds": {
+      "one": "{value} ثانية",
+      "other": "{value} ثانية"
+    },
+    "durationMinutes": {
+      "one": "{value} دقيقة",
+      "other": "{value} دقيقة"
+    }
+  },
+  "navigation": {
+    "productNavigation": "التنقل في المنتج",
+    "openNavigation": "فتح التنقل",
+    "closeNavigation": "إغلاق التنقل",
+    "dismissOverlay": "إغلاق طبقة التنقل",
+    "dailyWork": "العمل اليومي",
+    "manage": "الإدارة",
+    "administration": "إدارة النظام",
+    "platform": "المنصة",
+    "home": "الرئيسية",
+    "documents": "المستندات",
+    "search": "البحث",
+    "askAI": "اسأل الذكاء الاصطناعي",
+    "knowledge": "المعرفة",
+    "reports": "التقارير",
+    "integrations": "التكاملات",
+    "organization": "المؤسسة",
+    "usersAccess": "المستخدمون والوصول",
+    "aiConfiguration": "تهيئة الذكاء الاصطناعي",
+    "operations": "العمليات",
+    "governance": "الحوكمة",
+    "releaseReadiness": "الإصدار والجاهزية",
+    "capabilityInventory": "سجل القدرات",
+    "assistantPermissionRequired": "لا يملك الكيان المحدد صلاحية المساعد المطلوبة. اطلب من مسؤول المؤسسة تعيينها.",
+    "selectOrganizationForAssistant": "حدد مؤسسة لتقييم الوصول إلى المساعد.",
+    "preProduction": "ما قبل الإنتاج",
+    "aiOptional": "خدمات الذكاء الاصطناعي اختيارية"
+  },
+  "shell": {
+    "skipToContent": "الانتقال إلى المحتوى الرئيسي",
+    "activeOrganization": "المؤسسة النشطة",
+    "organizationContext": "سياق المؤسسة",
+    "organization": "المؤسسة",
+    "selectOrganization": "تحديد مؤسسة",
+    "refreshOrganizations": "تحديث المؤسسات",
+    "loadingOrganizations": "جارٍ التحميل…",
+    "accessSlow": "يستغرق التحقق من الوصول وقتًا أطول من المتوقع. يمكنك متابعة استخدام مساحة العمل الحالية.",
+    "noOrganizations": "لا توجد مؤسسات منتج تطابق عامل التصفية الحالي. أنشئ مؤسسة أو فعّلها قبل استخدام مساحات العمل ذات النطاق المؤسسي.",
+    "preparingWorkspace": "جارٍ إعداد مساحة عملك",
+    "loadingAuthorizedOrganizations": "جارٍ تحميل المؤسسات المصرح لك بالوصول إليها.",
+    "organizationsUnavailable": "المؤسسات غير متاحة",
+    "getStarted": "بدء الاستخدام",
+    "chooseOrganization": "اختر مؤسسة",
+    "noOrganizationAvailable": "لا توجد مؤسسة متاحة",
+    "chooseOrganizationHelp": "حدد المؤسسة التي تريد العمل فيها قبل تحميل بياناتها.",
+    "requestOrganizationHelp": "اطلب من مسؤول المنصة إنشاء مؤسسة أو منحك حق الوصول.",
+    "stepOrganization": "تحديد مؤسسة أو إنشاؤها",
+    "stepDocuments": "إضافة مستندات",
+    "stepKnowledge": "البحث في المعرفة أو طرح سؤال",
+    "refreshingAccess": "جارٍ تحديث الوصول إلى المؤسسة…"
+  },
+  "pages": {
+    "ai": {
+      "section": "إدارة النظام",
+      "title": "تهيئة الذكاء الاصطناعي",
+      "description": "هيّئ المساعدين والنماذج والمطالبات وضوابط الحماية مع إبقاء خدمات الذكاء الاصطناعي اختيارية."
+    },
+    "analytics": {
+      "section": "الإدارة",
+      "title": "التقارير",
+      "description": "راجع نشاط المستندات والبحث والمساعدين، والعناصر التي تحتاج إلى اهتمام."
+    },
+    "ask": {
+      "section": "العمل اليومي",
+      "title": "اسأل الذكاء الاصطناعي",
+      "description": "اطرح أسئلة باستخدام المساعدين المصرح لهم والمعرفة المحكومة في مؤسستك النشطة."
+    },
+    "connectors": {
+      "title": "مساحة عمل الموصلات",
+      "description": "أدر تكاملات الموصلات وافحصها وشغّلها مع الحوكمة وإمكانية التتبع."
+    },
+    "documents": {
+      "section": "العمل اليومي",
+      "title": "المستندات",
+      "description": "أضف المستندات المحكومة التي تدعم Enterprise Search والمساعدين وأدرها."
+    },
+    "governance": {
+      "section": "المنصة",
+      "title": "الحوكمة",
+      "description": "افحص إمكانية التتبع والمساءلة وأدلة وقت التشغيل والنَسَب وجاهزية السياسات وتشخيصات الامتثال."
+    },
+    "integrations": {
+      "section": "الإدارة",
+      "title": "التكاملات",
+      "description": "راجع قدرات التكامل والاتصالات المهيأة وواجهات API التي تدعمها."
+    },
+    "knowledge": {
+      "section": "الإدارة",
+      "title": "المعرفة",
+      "description": "اطلع على المعرفة المحكومة المنشورة والمتاحة للبحث ولسؤال الذكاء الاصطناعي."
+    },
+    "models": {
+      "title": "مركز النماذج والموفرين",
+      "description": "افحص سجل النماذج وجاهزية الموفرين وحالة البوابة واستخدام المساعدين وعلاقات السياسات وتشخيصات تهيئة الذكاء الاصطناعي الآمنة للأسرار."
+    },
+    "operations": {
+      "section": "المنصة",
+      "title": "عمليات المنصة",
+      "description": "راجع الصحة التشغيلية أولًا، ثم افتح عناصر التحكم والتشخيصات المتخصصة عند الحاجة."
+    },
+    "organization": {
+      "section": "إدارة النظام",
+      "title": "المؤسسة",
+      "description": "اختر المجال الإداري المطلوب دون تحميل نطاقات منصة غير مرتبطة."
+    },
+    "product": {
+      "title": "مراجعة تكامل المنتج",
+      "description": "تحقق من المنصة كمنتج Enterprise SaaS موحد عبر مساحات العمل وأوقات التشغيل والمستأجر المرجعي وجاهزية الإنتاج."
+    },
+    "production": {
+      "title": "الإصدار والجاهزية",
+      "description": "قيّم أهلية الإصدار المرشح وجاهزية الإنتاج كحالتين منفصلتين للمنتج ومدعومتين بالأدلة."
+    },
+    "runtime": {
+      "title": "وقت تشغيل التنفيذ",
+      "description": "افحص عمليات التنفيذ ضمن نطاق المستأجر والمحاولات وعقود الإيجار وأحداث دورة الحياة وحالات الفشل."
+    },
+    "scheduler": {
+      "title": "مركز المجدول والخدمات الخلفية",
+      "description": "افحص المجدول والعمال وعقود الإيجار وإعادات المحاولة وعمليات وقت التشغيل ومسارات المعالجة الخلفية والجاهزية التشغيلية."
+    },
+    "search": {
+      "section": "العمل اليومي",
+      "title": "البحث",
+      "description": "اعثر على المستندات والإجابات في المعرفة المحكومة لمؤسستك النشطة."
+    },
+    "security": {
+      "section": "إدارة النظام",
+      "title": "المستخدمون والوصول",
+      "description": "أدر الأدوار والصلاحيات والسياسات والتعيينات والوصول المؤسسي الفعلي."
+    },
+    "workflows": {
+      "section": "المنصة",
+      "title": "سجل القدرات",
+      "description": "راجع القدرات المتاحة في المنصة والأدلة التي تدعم حالتها الحالية."
+    }
+  },
+  "ask": {
+    "conversation": "محادثة",
+    "conversationHelp": "اختر مساعدًا متاحًا واطرح سؤالًا وراجع المصادر المستخدمة في الإجابة.",
+    "assistant": "المساعد",
+    "conversationLabel": "المحادثة",
+    "newConversation": "بدء محادثة جديدة",
+    "conversationTurns": {
+      "one": "محادثة من {count} جولة",
+      "other": "محادثة من {count} جولات"
+    },
+    "noAssistants": "لا يوجد مساعدون متاحون",
+    "selectAssistant": "حدد مساعدًا",
+    "sourceAvailabilityPending": "ستظهر هنا إتاحة مصادر المساعد.",
+    "sourcesAvailable": {
+      "zero": "لا توجد مصادر معرفة مؤسسية متاحة.",
+      "one": "يتم استخدام {count} مصدر معرفة مؤسسي.",
+      "other": "يتم استخدام {count} من مصادر المعرفة المؤسسية."
+    },
+    "assignedSources": {
+      "one": "تم تعيين {count} مصدر معرفة صراحةً لهذا المساعد.",
+      "other": "تم تعيين {count} من مصادر المعرفة صراحةً لهذا المساعد."
+    },
+    "howProduced": "كيفية إنتاج الإجابة",
+    "providerRequired": "يتطلب هذا المساعد موفر ذكاء اصطناعي مهيأ.",
+    "providerOptional": "موفر الذكاء الاصطناعي الخارجي اختياري لهذا المساعد.",
+    "searchCondition": "يُستخدم Enterprise Search فقط عندما يطلبه المساعد المحدد وتتوفر معرفة قابلة للبحث.",
+    "noMessages": "لا توجد رسائل في هذه المحادثة",
+    "noMessagesHelp": "اختر مساعدًا وأرسل رسالة للبدء.",
+    "loadingConversation": "جارٍ تحميل المحادثة المحفوظة…",
+    "organization": "المؤسسة: {name}",
+    "message": "الرسالة",
+    "messagePlaceholder": "اطرح سؤالًا باستخدام معرفة المنصة المحكومة",
+    "continueConversation": "متابعة المحادثة",
+    "startConversation": "بدء المحادثة",
+    "processing": "جارٍ معالجة الرسالة…",
+    "sources": "المصادر",
+    "sourceTitle": "المصدر {number}",
+    "you": "أنت",
+    "noEvidence": "لا توجد أدلة كافية في قاعدة المعرفة للإجابة عن هذا السؤال.",
+    "errors": {
+      "selectOrganization": "حدد مؤسسة قبل تحميل المحادثة.",
+      "historyUnavailable": "تعذر تحميل سجل المحادثة.",
+      "messageFailed": "تعذرت معالجة الرسالة.",
+      "conversationStopped": "تعذرت متابعة المحادثة."
+    }
+  },
+  "status": {
+    "active": "نشط",
+    "blocked": "محظور",
+    "completed": "مكتمل",
+    "configured": "مهيأ",
+    "degraded": "يتطلب اهتمامًا",
+    "disabled": "معطّل",
+    "enabled": "مفعّل",
+    "expired": "منتهي الصلاحية",
+    "failed": "يتطلب اهتمامًا",
+    "indexed": "قابل للبحث",
+    "notConfigured": "غير مهيأ",
+    "notEligible": "غير مؤهل",
+    "notEvaluated": "غير مقيّم",
+    "pending": "قيد التنفيذ",
+    "processed": "تمت معالجته",
+    "published": "منشور",
+    "ready": "جاهز",
+    "recorded": "محفوظ",
+    "registered": "مسجل",
+    "searchable": "قابل للبحث",
+    "unavailable": "غير متاح"
+  },
+  "feedback": {
+    "documentTypesLoading": "جارٍ تحميل أنواع المستندات من واجهة API…",
+    "documentTypesLoadFailed": "تعذر تحميل أنواع المستندات.",
+    "documentTypeDeleteFailed": "تعذر حذف نوع المستند.",
+    "documentTypesPersistFailed": "تعذر حفظ أنواع المستندات.",
+    "documentAdded": "تمت إضافة المستند. أصبحت حالة دورة حياته المحفوظة متاحة أدناه.",
+    "documentAddFailed": "تعذرت إضافة المستند.",
+    "selectOrganizationForOperations": "اختر مؤسسة لتحميل الحالة التشغيلية.",
+    "operationalHealthUnavailable": "حالة السلامة التشغيلية غير متاحة.",
+    "operationalHealthRefreshFailed": "تعذر تحديث حالة السلامة التشغيلية.",
+    "reconciliationPreviewFailed": "فشلت معاينة التسوية.",
+    "reconciliationRunFailed": "فشل تنفيذ التسوية.",
+    "workersLoading": "جارٍ تحميل العمال…",
+    "workersLoadFailed": "تعذر تحميل العمال.",
+    "workerCommandFailed": "فشل أمر العامل.",
+    "workerHistoryFailed": "تعذر تحميل سجل العامل.",
+    "workerSummaryLoading": "جارٍ تحميل ملخص العمال…",
+    "workerSummaryFailed": "تعذر تحميل ملخص العمال.",
+    "platformStateLoading": "جارٍ تحميل حالة واجهة API للمنصة…",
+    "defaultNodeLabel": "عقدة",
+    "platformStateLoadFailed": "تعذر تحميل حالة واجهة API للمنصة.",
+    "organizationNodeRemoveFailed": "تعذرت إزالة عقدة المؤسسة.",
+    "organizationGraphPersistFailed": "تعذر حفظ مخطط المؤسسة.",
+    "releaseGovernanceUnavailable": "حوكمة الإصدارات غير متاحة.",
+    "governedReleaseActionFailed": "تعذر إكمال إجراء الإصدار الخاضع للحوكمة.",
+    "executionRuntimeLoading": "جارٍ تحميل بيئة التنفيذ…",
+    "runtimeExecutionsLoadFailed": "تعذر تحميل عمليات التنفيذ.",
+    "runtimeExecutionInspectFailed": "تعذر فحص عملية التنفيذ.",
+    "runtimeExecutionsRefreshFailed": "تعذر تحديث عمليات التنفيذ.",
+    "loadFailed": "فشل التحميل.",
+    "actionFailed": "فشل الإجراء.",
+    "aiStudioRuntimeUnavailable": "بيئة تشغيل AI Studio غير متاحة.",
+    "askAiLoadFailed": "تعذر تحميل Ask AI.",
+    "reportingAnalyticsUnavailable": "مركز التقارير والتحليلات غير متاح.",
+    "connectorWorkspaceUnavailable": "مساحة عمل الموصلات غير متاحة.",
+    "documentsLoadFailed": "تعذر تحميل المستندات.",
+    "governanceRuntimeUnavailable": "بيئة تشغيل مركز الحوكمة غير متاحة.",
+    "integrationsUnavailable": "عمليات التكامل غير متاحة.",
+    "knowledgeLoadFailed": "تعذر تحميل Knowledge.",
+    "modelProviderRuntimeUnavailable": "بيئة تشغيل مركز النماذج والموفرين غير متاحة.",
+    "operationsRuntimeUnavailable": "بيئة تشغيل مركز العمليات غير متاحة.",
+    "organizationsLoading": "جارٍ تحميل المؤسسات...",
+    "administrationRuntimeUnavailable": "بيئة تشغيل الإدارة غير متاحة.",
+    "organizationsUnavailable": "المؤسسات غير متاحة.",
+    "accessEvaluationFailed": "تعذر تقييم الوصول.",
+    "productIntegrationRuntimeUnavailable": "بيئة تشغيل تكامل المنتج غير متاحة.",
+    "schedulerBackgroundServicesUnavailable": "مركز المجدول وخدمات الخلفية غير متاح.",
+    "selectOrganization": "اختر مؤسسة.",
+    "enterpriseSearchQueryFailed": "تعذر على Enterprise Search إكمال الاستعلام.",
+    "searchDiscoveryRuntimeUnavailable": "بيئة تشغيل Search Discovery غير متاحة.",
+    "securityRuntimeUnavailable": "بيئة تشغيل مركز الأمان غير متاحة.",
+    "capabilityInventoryUnavailable": "مخزون القدرات غير متاح."
+  }
+}

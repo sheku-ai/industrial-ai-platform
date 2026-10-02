@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "publication_enabled": false,
+  "allowed_registries": ["ghcr.io"],
+  "required_platforms": ["linux/amd64", "linux/arm64"],
+  "required_targets": ["api", "portal"],
+  "required_attestations": ["sbom", "provenance"],
+  "required_provenance_mode": "max",
+  "revision_tag_required": true,
+  "latest_tag_allowed": false,
+  "manual_approval_required": true
+}

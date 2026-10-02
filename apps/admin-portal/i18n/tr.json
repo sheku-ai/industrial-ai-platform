@@ -1,0 +1,29 @@
+{
+  "language": {
+    "selectorLabel": "Arayüz dilini seçin",
+    "preview": "Önizleme"
+  },
+  "auth": {
+    "checkingTitle": "Oturumunuz kontrol ediliyor",
+    "checkingDescription": "Çalışma alanı yüklenmeden önce kimliğiniz doğrulanıyor.",
+    "unavailableTitle": "Kimlik hizmeti kullanılamıyor",
+    "unavailableDescription": "Kimlik hizmeti kullanılamadığı için oturumunuz doğrulanamadı. Hizmet geri geldiğinde yeniden deneyin.",
+    "loginTitle": "Oturum aç",
+    "loginDescription": "Yetkili çalışma alanınıza erişmek için platform hesabınızı kullanın.",
+    "emailLabel": "E-posta adresi",
+    "passwordLabel": "Parola",
+    "invalidCredentials": "E-posta adresi veya parola hatalı.",
+    "rateLimited": "Çok fazla oturum açma denemesi yapıldı. Bir süre bekleyip yeniden deneyin.",
+    "loginUnavailable": "Kimlik hizmeti kullanılamıyor. Daha sonra yeniden deneyin.",
+    "loginFailed": "Oturum açma tamamlanamadı. Yeniden deneyin.",
+    "signingIn": "Oturum açılıyor…",
+    "signIn": "Oturum aç",
+    "signedInAs": "Oturum açan",
+    "signingOut": "Oturum kapatılıyor…",
+    "signOut": "Oturumu kapat",
+    "logoutUnavailable": "Oturum kapatma tamamlanamadı. Oturumunuz etkin kalır."
+  },
+  "ask": {
+    "noEvidence": "Bilgi tabanında bu soruyu yanıtlamak için yeterli kanıt yok."
+  }
+}

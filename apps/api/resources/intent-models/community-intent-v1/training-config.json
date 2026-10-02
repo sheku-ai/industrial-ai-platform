@@ -1,0 +1,30 @@
+{
+  "model_family": "conversation_intent",
+  "provider": "community.setfit",
+  "model_version": "community-intent-v1",
+  "dataset_version": "community-intent-dataset-v1",
+  "base_model": "intfloat/multilingual-e5-small",
+  "random_seed": 42,
+  "input_preparation": {
+    "strategy": "e5_query_prefix",
+    "prefix": "query: ",
+    "whitespace_normalization": "collapse"
+  },
+  "training_parameters": {
+    "batch_size": 16,
+    "num_epochs": 4,
+    "sampling_strategy": "oversampling",
+    "num_iterations": 20,
+    "body_learning_rate": 0.00002,
+    "head_learning_rate": 0.01,
+    "l2_weight": 0.01,
+    "max_length": 512,
+    "end_to_end": false,
+    "use_amp": false,
+    "warmup_proportion": 0.1,
+    "report_to": "none",
+    "logging_strategy": "epoch",
+    "save_strategy": "no",
+    "checkpoint_directory": "checkpoints"
+  }
+}

@@ -1,0 +1,333 @@
+{
+  "language": {
+    "selectorLabel": "Выбрать язык интерфейса",
+    "preview": "Предварительная версия"
+  },
+  "auth": {
+    "checkingTitle": "Проверка сеанса",
+    "checkingDescription": "Подтверждаем вашу личность перед загрузкой рабочего пространства.",
+    "unavailableTitle": "Служба идентификации недоступна",
+    "unavailableDescription": "Не удалось проверить сеанс, поскольку служба идентификации недоступна. Повторите попытку после восстановления службы.",
+    "loginTitle": "Войти",
+    "loginDescription": "Используйте учетную запись платформы для доступа к разрешенному рабочему пространству.",
+    "emailLabel": "Адрес электронной почты",
+    "passwordLabel": "Пароль",
+    "invalidCredentials": "Неверный адрес электронной почты или пароль.",
+    "rateLimited": "Слишком много попыток входа. Подождите немного и повторите попытку.",
+    "loginUnavailable": "Служба идентификации недоступна. Повторите попытку позже.",
+    "loginFailed": "Не удалось выполнить вход. Повторите попытку.",
+    "signingIn": "Выполняется вход…",
+    "signIn": "Войти",
+    "signedInAs": "Выполнен вход как",
+    "signingOut": "Выполняется выход…",
+    "signOut": "Выйти",
+    "logoutUnavailable": "Не удалось выполнить выход. Ваш сеанс остается активным."
+  },
+  "common": {
+    "actions": {
+      "open": "Открыть",
+      "close": "Закрыть",
+      "dismiss": "Скрыть",
+      "refresh": "Обновить",
+      "refreshing": "Обновление…",
+      "retry": "Повторить",
+      "save": "Сохранить",
+      "cancel": "Отмена",
+      "add": "Добавить",
+      "remove": "Удалить",
+      "review": "Проверить",
+      "configure": "Настроить",
+      "search": "Искать",
+      "send": "Отправить",
+      "viewDetails": "Показать подробности"
+    },
+    "notAvailable": "Недоступно",
+    "notSelected": "Не выбрано",
+    "none": "Нет",
+    "yes": "Да",
+    "no": "Нет",
+    "loading": "Загрузка…",
+    "noItems": "Нет зарегистрированных элементов.",
+    "technicalId": "Технический ID",
+    "advancedDetails": "Расширенные сведения",
+    "status": "Статус",
+    "actionColumn": "Действия",
+    "name": "Название",
+    "type": "Тип",
+    "code": "Код",
+    "description": "Описание",
+    "created": "Создано",
+    "updated": "Обновлено",
+    "enabled": "Включено",
+    "ready": "Готово"
+  },
+  "formats": {
+    "durationSeconds": {
+      "one": "{value} секунда",
+      "other": "{value} секунд"
+    },
+    "durationMinutes": {
+      "one": "{value} минута",
+      "other": "{value} минут"
+    }
+  },
+  "navigation": {
+    "productNavigation": "Навигация по продукту",
+    "openNavigation": "Открыть навигацию",
+    "closeNavigation": "Закрыть навигацию",
+    "dismissOverlay": "Закрыть панель навигации",
+    "dailyWork": "Ежедневная работа",
+    "manage": "Управление",
+    "administration": "Администрирование",
+    "platform": "Платформа",
+    "home": "Главная",
+    "documents": "Документы",
+    "search": "Поиск",
+    "askAI": "Спросить ИИ",
+    "knowledge": "Знания",
+    "reports": "Отчёты",
+    "integrations": "Интеграции",
+    "organization": "Организация",
+    "usersAccess": "Пользователи и доступ",
+    "aiConfiguration": "Настройка ИИ",
+    "operations": "Операции",
+    "governance": "Управление",
+    "releaseReadiness": "Релиз и готовность",
+    "capabilityInventory": "Каталог возможностей",
+    "assistantPermissionRequired": "У выбранного субъекта нет необходимого разрешения Assistant. Попросите администратора организации назначить его.",
+    "selectOrganizationForAssistant": "Выберите организацию для проверки доступа к Assistant.",
+    "preProduction": "Предпродакшен",
+    "aiOptional": "Сервисы ИИ необязательны"
+  },
+  "shell": {
+    "skipToContent": "Перейти к основному содержимому",
+    "activeOrganization": "Активная организация",
+    "organizationContext": "Контекст организации",
+    "organization": "Организация",
+    "selectOrganization": "Выбрать организацию",
+    "refreshOrganizations": "Обновить организации",
+    "loadingOrganizations": "Загрузка…",
+    "accessSlow": "Проверка доступа занимает больше времени, чем ожидалось. Текущим рабочим пространством можно продолжать пользоваться.",
+    "noOrganizations": "Нет организаций продукта, соответствующих текущему фильтру. Создайте или активируйте организацию перед использованием рабочих пространств с организационной областью.",
+    "preparingWorkspace": "Подготовка рабочего пространства",
+    "loadingAuthorizedOrganizations": "Загружаются организации, к которым у вас есть доступ.",
+    "organizationsUnavailable": "Организации недоступны",
+    "getStarted": "Начало работы",
+    "chooseOrganization": "Выберите организацию",
+    "noOrganizationAvailable": "Нет доступных организаций",
+    "chooseOrganizationHelp": "Выберите организацию, в которой хотите работать, до загрузки её данных.",
+    "requestOrganizationHelp": "Попросите администратора платформы создать организацию или предоставить доступ.",
+    "stepOrganization": "Выбрать или создать организацию",
+    "stepDocuments": "Добавить документы",
+    "stepKnowledge": "Найти знания или задать вопрос",
+    "refreshingAccess": "Обновление доступа к организации…"
+  },
+  "pages": {
+    "ai": {
+      "section": "Администрирование",
+      "title": "Настройка ИИ",
+      "description": "Настраивайте ассистентов, модели, промпты и защитные ограничения, сохраняя сервисы ИИ необязательными."
+    },
+    "analytics": {
+      "section": "Управление",
+      "title": "Отчёты",
+      "description": "Просматривайте активность документов, поиска и ассистентов, а также элементы, требующие внимания."
+    },
+    "ask": {
+      "section": "Ежедневная работа",
+      "title": "Спросить ИИ",
+      "description": "Задавайте вопросы с помощью авторизованных ассистентов и управляемых знаний активной организации."
+    },
+    "connectors": {
+      "title": "Рабочее пространство коннекторов",
+      "description": "Управляйте, проверяйте и эксплуатируйте интеграции коннекторов с управлением и трассируемостью."
+    },
+    "documents": {
+      "section": "Ежедневная работа",
+      "title": "Документы",
+      "description": "Добавляйте и управляйте контролируемыми документами, которые используются Enterprise Search и ассистентами."
+    },
+    "governance": {
+      "section": "Платформа",
+      "title": "Управление",
+      "description": "Проверяйте трассируемость, ответственность, свидетельства runtime, происхождение данных, готовность политик и диагностику соответствия."
+    },
+    "integrations": {
+      "section": "Управление",
+      "title": "Интеграции",
+      "description": "Просматривайте возможности интеграции, настроенные подключения и поддерживающие их API."
+    },
+    "knowledge": {
+      "section": "Управление",
+      "title": "Знания",
+      "description": "Просматривайте опубликованные управляемые знания, доступные для поиска и Спросить ИИ."
+    },
+    "models": {
+      "title": "Центр моделей и провайдеров",
+      "description": "Проверяйте реестр моделей, готовность провайдеров, состояние шлюза, использование ассистентов, связи политик и безопасную диагностику конфигурации ИИ."
+    },
+    "operations": {
+      "section": "Платформа",
+      "title": "Операции платформы",
+      "description": "Сначала проверьте операционное состояние, затем откройте необходимые специализированные средства управления runtime и диагностику."
+    },
+    "organization": {
+      "section": "Администрирование",
+      "title": "Организация",
+      "description": "Выберите нужную область администрирования без загрузки несвязанных доменов платформы."
+    },
+    "product": {
+      "title": "Проверка интеграции продукта",
+      "description": "Проверьте платформу как единый продукт Enterprise SaaS во всех рабочих пространствах, runtimes, эталонном tenant и готовности к продакшену."
+    },
+    "production": {
+      "title": "Релиз и готовность",
+      "description": "Оценивайте пригодность релиз-кандидата и готовность к продакшену как отдельные состояния продукта, подтверждённые доказательствами."
+    },
+    "runtime": {
+      "title": "Runtime выполнения",
+      "description": "Проверяйте выполнения в области tenant, попытки, аренды, события жизненного цикла и состояния сбоев."
+    },
+    "scheduler": {
+      "title": "Центр планировщика и фоновых сервисов",
+      "description": "Проверяйте планировщик, workers, аренды, повторные попытки, выполнения runtime, фоновые конвейеры и операционную готовность."
+    },
+    "search": {
+      "section": "Ежедневная работа",
+      "title": "Поиск",
+      "description": "Находите документы и ответы в управляемых знаниях активной организации."
+    },
+    "security": {
+      "section": "Администрирование",
+      "title": "Пользователи и доступ",
+      "description": "Управляйте ролями, разрешениями, политиками, назначениями и действующим доступом в организации."
+    },
+    "workflows": {
+      "section": "Платформа",
+      "title": "Каталог возможностей",
+      "description": "Просматривайте доступные возможности платформы и доказательства их текущего состояния."
+    }
+  },
+  "ask": {
+    "conversation": "Чат",
+    "conversationHelp": "Выберите доступного ассистента, задайте вопрос и проверьте источники ответа.",
+    "assistant": "Ассистент",
+    "conversationLabel": "Диалог",
+    "newConversation": "Начать новый диалог",
+    "conversationTurns": {
+      "one": "Диалог: {count} реплика",
+      "other": "Диалог: {count} реплик"
+    },
+    "noAssistants": "Нет доступных ассистентов",
+    "selectAssistant": "Выберите ассистента",
+    "sourceAvailabilityPending": "Здесь появится доступность источников ассистента.",
+    "sourcesAvailable": {
+      "zero": "Нет доступных источников знаний организации.",
+      "one": "Используется {count} источник знаний организации.",
+      "other": "Используется {count} источников знаний организации."
+    },
+    "assignedSources": {
+      "one": "Этому ассистенту явно назначен {count} источник знаний.",
+      "other": "Этому ассистенту явно назначено {count} источников знаний."
+    },
+    "howProduced": "Как формируется ответ",
+    "providerRequired": "Для этого ассистента необходим настроенный провайдер ИИ.",
+    "providerOptional": "Внешний провайдер ИИ для этого ассистента необязателен.",
+    "searchCondition": "Enterprise Search используется только по запросу выбранного ассистента и при наличии доступных для поиска знаний.",
+    "noMessages": "В этом диалоге нет сообщений",
+    "noMessagesHelp": "Выберите ассистента и отправьте сообщение, чтобы начать.",
+    "loadingConversation": "Загрузка сохранённого диалога…",
+    "organization": "Организация: {name}",
+    "message": "Сообщение",
+    "messagePlaceholder": "Задайте вопрос, используя управляемые знания платформы",
+    "continueConversation": "Продолжить диалог",
+    "startConversation": "Начать диалог",
+    "processing": "Обработка сообщения…",
+    "sources": "Источники",
+    "sourceTitle": "Источник {number}",
+    "you": "Вы",
+    "noEvidence": "В базе знаний недостаточно подтверждений, чтобы ответить на этот вопрос.",
+    "errors": {
+      "selectOrganization": "Выберите организацию перед загрузкой диалога.",
+      "historyUnavailable": "Не удалось загрузить историю диалога.",
+      "messageFailed": "Не удалось обработать сообщение.",
+      "conversationStopped": "Не удалось продолжить диалог."
+    }
+  },
+  "status": {
+    "active": "Активно",
+    "blocked": "Заблокировано",
+    "completed": "Завершено",
+    "configured": "Настроено",
+    "degraded": "Требует внимания",
+    "disabled": "Отключено",
+    "enabled": "Включено",
+    "expired": "Истекло",
+    "failed": "Требует внимания",
+    "indexed": "Доступно для поиска",
+    "notConfigured": "Не настроено",
+    "notEligible": "Не соответствует",
+    "notEvaluated": "Не оценено",
+    "pending": "Выполняется",
+    "processed": "Обработано",
+    "published": "Опубликовано",
+    "ready": "Готово",
+    "recorded": "Сохранено",
+    "registered": "Зарегистрировано",
+    "searchable": "Доступно для поиска",
+    "unavailable": "Недоступно"
+  },
+  "feedback": {
+    "documentTypesLoading": "Загрузка типов документов из API…",
+    "documentTypesLoadFailed": "Не удалось загрузить типы документов.",
+    "documentTypeDeleteFailed": "Не удалось удалить тип документа.",
+    "documentTypesPersistFailed": "Не удалось сохранить типы документов.",
+    "documentAdded": "Документ добавлен. Его сохранённое состояние жизненного цикла доступно ниже.",
+    "documentAddFailed": "Не удалось добавить документ.",
+    "selectOrganizationForOperations": "Выберите организацию, чтобы загрузить операционное состояние.",
+    "operationalHealthUnavailable": "Операционное состояние недоступно.",
+    "operationalHealthRefreshFailed": "Не удалось обновить операционное состояние.",
+    "reconciliationPreviewFailed": "Предварительный просмотр сверки завершился ошибкой.",
+    "reconciliationRunFailed": "Выполнение сверки завершилось ошибкой.",
+    "workersLoading": "Загрузка воркеров…",
+    "workersLoadFailed": "Не удалось загрузить воркеры.",
+    "workerCommandFailed": "Команда воркера завершилась ошибкой.",
+    "workerHistoryFailed": "Не удалось загрузить историю воркера.",
+    "workerSummaryLoading": "Загрузка сводки по воркерам…",
+    "workerSummaryFailed": "Не удалось загрузить сводку по воркерам.",
+    "platformStateLoading": "Загрузка состояния API платформы…",
+    "defaultNodeLabel": "Узел",
+    "platformStateLoadFailed": "Не удалось загрузить состояние API платформы.",
+    "organizationNodeRemoveFailed": "Не удалось удалить узел организации.",
+    "organizationGraphPersistFailed": "Не удалось сохранить граф организации.",
+    "releaseGovernanceUnavailable": "Управление релизами недоступно.",
+    "governedReleaseActionFailed": "Не удалось завершить действие с управляемым релизом.",
+    "executionRuntimeLoading": "Загрузка среды выполнения…",
+    "runtimeExecutionsLoadFailed": "Не удалось загрузить выполнения среды.",
+    "runtimeExecutionInspectFailed": "Не удалось проверить выполнение среды.",
+    "runtimeExecutionsRefreshFailed": "Не удалось обновить выполнения среды.",
+    "loadFailed": "Ошибка загрузки.",
+    "actionFailed": "Действие завершилось ошибкой.",
+    "aiStudioRuntimeUnavailable": "Среда AI Studio недоступна.",
+    "askAiLoadFailed": "Не удалось загрузить Ask AI.",
+    "reportingAnalyticsUnavailable": "Центр отчётности и аналитики недоступен.",
+    "connectorWorkspaceUnavailable": "Рабочая область коннекторов недоступна.",
+    "documentsLoadFailed": "Не удалось загрузить документы.",
+    "governanceRuntimeUnavailable": "Среда Центра управления недоступна.",
+    "integrationsUnavailable": "Интеграции недоступны.",
+    "knowledgeLoadFailed": "Не удалось загрузить Knowledge.",
+    "modelProviderRuntimeUnavailable": "Среда Центра моделей и провайдеров недоступна.",
+    "operationsRuntimeUnavailable": "Среда Центра операций недоступна.",
+    "organizationsLoading": "Загрузка организаций...",
+    "administrationRuntimeUnavailable": "Среда администрирования недоступна.",
+    "organizationsUnavailable": "Организации недоступны.",
+    "accessEvaluationFailed": "Не удалось оценить доступ.",
+    "productIntegrationRuntimeUnavailable": "Среда интеграции продукта недоступна.",
+    "schedulerBackgroundServicesUnavailable": "Центр планировщика и фоновых служб недоступен.",
+    "selectOrganization": "Выберите организацию.",
+    "enterpriseSearchQueryFailed": "Enterprise Search не удалось выполнить запрос.",
+    "searchDiscoveryRuntimeUnavailable": "Среда Search Discovery недоступна.",
+    "securityRuntimeUnavailable": "Среда Центра безопасности недоступна.",
+    "capabilityInventoryUnavailable": "Реестр возможностей недоступен."
+  }
+}

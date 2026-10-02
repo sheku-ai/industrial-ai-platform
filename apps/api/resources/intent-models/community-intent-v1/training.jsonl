@@ -1,0 +1,290 @@
+{"text":"¿Cuál es la política general para conservar registros digitales?","label":"knowledge_query","language":"es"}
+{"text":"Explícame cómo funciona un control de versiones documental.","label":"knowledge_query","language":"es"}
+{"text":"¿Qué información debe contener una evaluación de riesgos?","label":"knowledge_query","language":"es"}
+{"text":"Necesito conocer los pasos habituales de una revisión técnica.","label":"knowledge_query","language":"es"}
+{"text":"¿Cómo se define la trazabilidad de una decisión?","label":"knowledge_query","language":"es"}
+{"text":"Indica los criterios comunes para aprobar un procedimiento.","label":"knowledge_query","language":"es"}
+{"text":"¿Qué diferencia existe entre una política y una instrucción de trabajo?","label":"knowledge_query","language":"es"}
+{"text":"Describe las buenas prácticas para gestionar conocimiento institucional.","label":"knowledge_query","language":"es"}
+{"text":"¿Cuándo debería revisarse un documento controlado?","label":"knowledge_query","language":"es"}
+{"text":"Dime qué significa que una evidencia sea auditable.","label":"knowledge_query","language":"es"}
+{"text":"Busco una explicación sobre clasificación de información sensible.","label":"knowledge_query","language":"es"}
+{"text":"¿Qué elementos se consideran al priorizar una acción correctiva?","label":"knowledge_query","language":"es"}
+{"text":"Enumera las responsabilidades habituales durante una gestión de cambios.","label":"knowledge_query","language":"es"}
+{"text":"Necesito entender por qué se registran las decisiones operativas y cómo se mantiene su historial.","label":"knowledge_query","language":"es"}
+{"text":"¿Qué controles generales ayudan a asegurar que una solicitud fue revisada antes de ejecutarse?","label":"knowledge_query","language":"es"}
+{"text":"¿Qué establece la política respecto de las aprobaciones?","label":"knowledge_query","language":"es"}
+{"text":"¿Cuáles son las condiciones necesarias para aprobar una solicitud?","label":"knowledge_query","language":"es"}
+{"text":"¿Quién tiene la responsabilidad de autorizar una petición?","label":"knowledge_query","language":"es"}
+{"text":"¿Cómo se desarrolla el circuito de aprobación?","label":"knowledge_query","language":"es"}
+{"text":"¿En qué documento se define el período de retención?","label":"knowledge_query","language":"es"}
+{"text":"¿Qué requisitos debe cumplir una solicitud antes de presentarse?","label":"knowledge_query","language":"es"}
+{"text":"¿Qué procedimiento corresponde seguir para pedir acceso?","label":"knowledge_query","language":"es"}
+{"text":"¿Cuánto tiempo se establece para emitir una respuesta?","label":"knowledge_query","language":"es"}
+{"text":"¿Qué datos obligatorios solicita el procedimiento?","label":"knowledge_query","language":"es"}
+{"text":"¿A quién corresponde autorizar una modificación?","label":"knowledge_query","language":"es"}
+{"text":"What is the standard purpose of a document retention policy?","label":"knowledge_query","language":"en"}
+{"text":"Explain how controlled document versioning works.","label":"knowledge_query","language":"en"}
+{"text":"What information belongs in a risk assessment?","label":"knowledge_query","language":"en"}
+{"text":"List the usual steps in a technical review.","label":"knowledge_query","language":"en"}
+{"text":"How is decision traceability defined?","label":"knowledge_query","language":"en"}
+{"text":"Describe common criteria for approving a procedure.","label":"knowledge_query","language":"en"}
+{"text":"What is the difference between a policy and a work instruction?","label":"knowledge_query","language":"en"}
+{"text":"Tell me the recommended practices for managing institutional knowledge.","label":"knowledge_query","language":"en"}
+{"text":"When should a controlled document be reviewed?","label":"knowledge_query","language":"en"}
+{"text":"What does it mean for evidence to be auditable?","label":"knowledge_query","language":"en"}
+{"text":"I need an explanation of sensitive information classification.","label":"knowledge_query","language":"en"}
+{"text":"Which factors are considered when prioritizing corrective action?","label":"knowledge_query","language":"en"}
+{"text":"Outline the responsibilities normally involved in change management.","label":"knowledge_query","language":"en"}
+{"text":"Why are operational decisions recorded, and how should their history be maintained?","label":"knowledge_query","language":"en"}
+{"text":"Which general controls ensure that a request has been reviewed before it is carried out?","label":"knowledge_query","language":"en"}
+{"text":"What does the policy say about approvals?","label":"knowledge_query","language":"en"}
+{"text":"What conditions must be met before a request can be approved?","label":"knowledge_query","language":"en"}
+{"text":"Who is responsible for authorizing a request?","label":"knowledge_query","language":"en"}
+{"text":"How does the approval process operate?","label":"knowledge_query","language":"en"}
+{"text":"Where is the retention period formally defined?","label":"knowledge_query","language":"en"}
+{"text":"What requirements must a request satisfy before submission?","label":"knowledge_query","language":"en"}
+{"text":"Which procedure should be followed when requesting access?","label":"knowledge_query","language":"en"}
+{"text":"What response deadline does the policy establish?","label":"knowledge_query","language":"en"}
+{"text":"Which mandatory details does the procedure require?","label":"knowledge_query","language":"en"}
+{"text":"Who has responsibility for authorizing a modification?","label":"knowledge_query","language":"en"}
+{"text":"¿Y quién debe aprobarlo?","label":"contextual_follow_up","language":"es"}
+{"text":"¿Cuándo se aplica esa excepción?","label":"contextual_follow_up","language":"es"}
+{"text":"¿Puedes explicar mejor el segundo punto?","label":"contextual_follow_up","language":"es"}
+{"text":"¿Qué ocurre después de ese paso?","label":"contextual_follow_up","language":"es"}
+{"text":"¿Eso también vale para registros electrónicos?","label":"contextual_follow_up","language":"es"}
+{"text":"¿Por qué mencionaste ese control?","label":"contextual_follow_up","language":"es"}
+{"text":"¿Cuál de esas opciones es la recomendada?","label":"contextual_follow_up","language":"es"}
+{"text":"Dame un ejemplo de lo que acabas de explicar.","label":"contextual_follow_up","language":"es"}
+{"text":"¿Cómo se relaciona eso con la revisión anterior?","label":"contextual_follow_up","language":"es"}
+{"text":"¿Hay algún límite para ese plazo?","label":"contextual_follow_up","language":"es"}
+{"text":"Entonces, ¿la misma persona puede realizar ambas acciones?","label":"contextual_follow_up","language":"es"}
+{"text":"Sobre tu respuesta anterior, ¿qué evidencia demostraría el cumplimiento?","label":"contextual_follow_up","language":"es"}
+{"text":"Mencionaste tres condiciones; ¿qué pasa si solo se cumplen dos?","label":"contextual_follow_up","language":"es"}
+{"text":"Siguiendo con ese procedimiento, ¿en qué momento se registra el resultado?","label":"contextual_follow_up","language":"es"}
+{"text":"Respecto de la diferencia que señalaste, ¿cuál sería el impacto práctico?","label":"contextual_follow_up","language":"es"}
+{"text":"¿Y quién lo aprueba?","label":"contextual_follow_up","language":"es"}
+{"text":"¿Y luego qué sucede?","label":"contextual_follow_up","language":"es"}
+{"text":"¿Eso se aplica a todos?","label":"contextual_follow_up","language":"es"}
+{"text":"¿Quién realiza esa parte?","label":"contextual_follow_up","language":"es"}
+{"text":"¿Y dónde se registra?","label":"contextual_follow_up","language":"es"}
+{"text":"¿Qué ocurre en ese caso concreto?","label":"contextual_follow_up","language":"es"}
+{"text":"¿Y qué plazo tiene?","label":"contextual_follow_up","language":"es"}
+{"text":"¿Quién lo comprueba después?","label":"contextual_follow_up","language":"es"}
+{"text":"¿También vale para el que mencionaste antes?","label":"contextual_follow_up","language":"es"}
+{"text":"¿Y cuál de esos requisitos falta?","label":"contextual_follow_up","language":"es"}
+{"text":"And who is expected to approve it?","label":"contextual_follow_up","language":"en"}
+{"text":"When does that exception apply?","label":"contextual_follow_up","language":"en"}
+{"text":"Could you explain the second point more clearly?","label":"contextual_follow_up","language":"en"}
+{"text":"What happens after that step?","label":"contextual_follow_up","language":"en"}
+{"text":"Does that also apply to electronic records?","label":"contextual_follow_up","language":"en"}
+{"text":"Why did you mention that control?","label":"contextual_follow_up","language":"en"}
+{"text":"Which of those options is recommended?","label":"contextual_follow_up","language":"en"}
+{"text":"Give me an example of what you just explained.","label":"contextual_follow_up","language":"en"}
+{"text":"How does that relate to the earlier review?","label":"contextual_follow_up","language":"en"}
+{"text":"Is there a limit on that period?","label":"contextual_follow_up","language":"en"}
+{"text":"So, can the same person perform both actions?","label":"contextual_follow_up","language":"en"}
+{"text":"Based on your previous answer, what evidence would demonstrate compliance?","label":"contextual_follow_up","language":"en"}
+{"text":"You listed three conditions; what happens if only two are met?","label":"contextual_follow_up","language":"en"}
+{"text":"Continuing with that procedure, when is the result recorded?","label":"contextual_follow_up","language":"en"}
+{"text":"Regarding the distinction you made, what would its practical impact be?","label":"contextual_follow_up","language":"en"}
+{"text":"And who approves it?","label":"contextual_follow_up","language":"en"}
+{"text":"And what comes next?","label":"contextual_follow_up","language":"en"}
+{"text":"Does that apply to everyone?","label":"contextual_follow_up","language":"en"}
+{"text":"Who carries out that part?","label":"contextual_follow_up","language":"en"}
+{"text":"And where is it recorded?","label":"contextual_follow_up","language":"en"}
+{"text":"What occurs in that particular case?","label":"contextual_follow_up","language":"en"}
+{"text":"And how long is the deadline?","label":"contextual_follow_up","language":"en"}
+{"text":"Who checks it afterwards?","label":"contextual_follow_up","language":"en"}
+{"text":"Does it also apply to the one you mentioned earlier?","label":"contextual_follow_up","language":"en"}
+{"text":"And which of those requirements is still missing?","label":"contextual_follow_up","language":"en"}
+{"text":"Cambiando de tema, ¿cómo se organiza una taxonomía documental?","label":"new_topic","language":"es"}
+{"text":"Ahora quiero consultar sobre retención de datos.","label":"new_topic","language":"es"}
+{"text":"Dejemos lo anterior; explícame la gestión de incidentes.","label":"new_topic","language":"es"}
+{"text":"Otra pregunta distinta: ¿qué es una matriz de responsabilidades?","label":"new_topic","language":"es"}
+{"text":"Pasemos a la clasificación de documentos.","label":"new_topic","language":"es"}
+{"text":"Quiero iniciar una consulta nueva sobre controles de acceso.","label":"new_topic","language":"es"}
+{"text":"Hablemos ahora de continuidad operativa.","label":"new_topic","language":"es"}
+{"text":"Eso es todo sobre revisiones; necesito información de auditorías.","label":"new_topic","language":"es"}
+{"text":"Abre un tema diferente: gestión de proveedores.","label":"new_topic","language":"es"}
+{"text":"Tengo una consulta independiente sobre respaldos de información.","label":"new_topic","language":"es"}
+{"text":"Olvida mi pregunta previa y dime cómo se define un indicador.","label":"new_topic","language":"es"}
+{"text":"Empecemos otra conversación sobre permisos y roles configurables.","label":"new_topic","language":"es"}
+{"text":"Sin relación con lo anterior, ¿qué debería contener un plan de recuperación?","label":"new_topic","language":"es"}
+{"text":"Ya entendí ese proceso; ahora necesito conocer los principios de control documental.","label":"new_topic","language":"es"}
+{"text":"Antes hablábamos de evidencia, pero mi nueva pregunta trata sobre planificación de capacidad.","label":"new_topic","language":"es"}
+{"text":"Cambiemos de tema.","label":"new_topic","language":"es"}
+{"text":"Prefiero hablar de otra cosa ahora.","label":"new_topic","language":"es"}
+{"text":"Quiero dejar este asunto y abrir uno diferente.","label":"new_topic","language":"es"}
+{"text":"Pasemos a una cuestión nueva.","label":"new_topic","language":"es"}
+{"text":"Demos por terminado ese tema y continuemos con otro.","label":"new_topic","language":"es"}
+{"text":"Tengo otra pregunta que no depende de lo anterior.","label":"new_topic","language":"es"}
+{"text":"Olvida lo que veníamos tratando; quiero consultar otra cosa.","label":"new_topic","language":"es"}
+{"text":"Cambiando completamente de tema, necesito plantear una duda distinta.","label":"new_topic","language":"es"}
+{"text":"Hasta aquí con ese asunto; ahora hablemos de algo diferente.","label":"new_topic","language":"es"}
+{"text":"Dejemos eso a un lado y empecemos con una consulta nueva.","label":"new_topic","language":"es"}
+{"text":"Changing topics, how is a document taxonomy organized?","label":"new_topic","language":"en"}
+{"text":"I want to ask about data retention now.","label":"new_topic","language":"en"}
+{"text":"Let us leave that aside and discuss incident management.","label":"new_topic","language":"en"}
+{"text":"A different question: what is a responsibility matrix?","label":"new_topic","language":"en"}
+{"text":"Let us move on to document classification.","label":"new_topic","language":"en"}
+{"text":"I want to start a new inquiry about access controls.","label":"new_topic","language":"en"}
+{"text":"Now I would like to discuss operational continuity.","label":"new_topic","language":"en"}
+{"text":"That covers reviews; I need information about audits instead.","label":"new_topic","language":"en"}
+{"text":"Open a separate topic about supplier management.","label":"new_topic","language":"en"}
+{"text":"I have an independent question about information backups.","label":"new_topic","language":"en"}
+{"text":"Forget my previous question and explain how an indicator is defined.","label":"new_topic","language":"en"}
+{"text":"Start another discussion about configurable permissions and roles.","label":"new_topic","language":"en"}
+{"text":"Unrelated to the previous subject, what should a recovery plan contain?","label":"new_topic","language":"en"}
+{"text":"I understand that process now; tell me about document control principles.","label":"new_topic","language":"en"}
+{"text":"We were discussing evidence, but my new question concerns capacity planning.","label":"new_topic","language":"en"}
+{"text":"Let's change the subject.","label":"new_topic","language":"en"}
+{"text":"I'd rather talk about something else now.","label":"new_topic","language":"en"}
+{"text":"I want to leave this issue and start a different one.","label":"new_topic","language":"en"}
+{"text":"Let's move to a new matter.","label":"new_topic","language":"en"}
+{"text":"We can close that topic and continue with another.","label":"new_topic","language":"en"}
+{"text":"I have a separate question unrelated to the earlier discussion.","label":"new_topic","language":"en"}
+{"text":"Forget what we were discussing; I want to ask about something else.","label":"new_topic","language":"en"}
+{"text":"On a completely different subject, I need to raise another question.","label":"new_topic","language":"en"}
+{"text":"That's enough on that issue; now I'd like to discuss something different.","label":"new_topic","language":"en"}
+{"text":"Let's put that aside and begin a new inquiry.","label":"new_topic","language":"en"}
+{"text":"Mejora la respuesta anterior manteniendo el mismo significado.","label":"response_refinement","language":"es"}
+{"text":"Ajusta tu respuesta para que sea más útil.","label":"response_refinement","language":"es"}
+{"text":"Presenta de nuevo esa respuesta con mejor estructura.","label":"response_refinement","language":"es"}
+{"text":"Pule el contenido anterior sin cambiar la conclusión.","label":"response_refinement","language":"es"}
+{"text":"Haz que la respuesta previa sea más fácil de usar.","label":"response_refinement","language":"es"}
+{"text":"Revisa tu redacción anterior y mejora su calidad.","label":"response_refinement","language":"es"}
+{"text":"Dale un mejor formato a lo que respondiste.","label":"response_refinement","language":"es"}
+{"text":"Adapta la respuesta anterior para una comunicación interna genérica.","label":"response_refinement","language":"es"}
+{"text":"Refina esa explicación sin buscar información nueva.","label":"response_refinement","language":"es"}
+{"text":"Quiero una versión mejor presentada de tu última respuesta.","label":"response_refinement","language":"es"}
+{"text":"Corrige la calidad de la respuesta previa, pero conserva sus hechos.","label":"response_refinement","language":"es"}
+{"text":"Vuelve a presentar el contenido anterior de una manera más ordenada.","label":"response_refinement","language":"es"}
+{"text":"Ajusta el texto que acabas de generar para que comunique mejor la idea central.","label":"response_refinement","language":"es"}
+{"text":"Necesito que mejores la respuesta existente sin iniciar una consulta de conocimiento diferente.","label":"response_refinement","language":"es"}
+{"text":"Trabaja sobre tu respuesta anterior y entrégame una versión más cuidada, sin añadir hechos nuevos.","label":"response_refinement","language":"es"}
+{"text":"Cambia la respuesta anterior, no el tema.","label":"response_refinement","language":"es"}
+{"text":"Reformula lo que acabas de decir.","label":"response_refinement","language":"es"}
+{"text":"Explícalo de una manera distinta manteniendo la misma idea.","label":"response_refinement","language":"es"}
+{"text":"Modifica tu respuesta previa para que quede más clara.","label":"response_refinement","language":"es"}
+{"text":"Dame otra versión de esa misma respuesta.","label":"response_refinement","language":"es"}
+{"text":"Mejora la explicación que proporcionaste antes.","label":"response_refinement","language":"es"}
+{"text":"Cambia la forma en que explicaste ese contenido.","label":"response_refinement","language":"es"}
+{"text":"Redacta nuevamente la respuesta anterior.","label":"response_refinement","language":"es"}
+{"text":"Reescribe ese texto con otra estructura.","label":"response_refinement","language":"es"}
+{"text":"Ajusta tu última respuesta sin iniciar un asunto nuevo.","label":"response_refinement","language":"es"}
+{"text":"Improve the previous answer while preserving its meaning.","label":"response_refinement","language":"en"}
+{"text":"Adjust your response so it is more useful.","label":"response_refinement","language":"en"}
+{"text":"Present that answer again with a better structure.","label":"response_refinement","language":"en"}
+{"text":"Polish the earlier content without changing its conclusion.","label":"response_refinement","language":"en"}
+{"text":"Make the previous response easier to use.","label":"response_refinement","language":"en"}
+{"text":"Review your earlier wording and improve its quality.","label":"response_refinement","language":"en"}
+{"text":"Give what you answered a better format.","label":"response_refinement","language":"en"}
+{"text":"Adapt the prior response for a generic internal communication.","label":"response_refinement","language":"en"}
+{"text":"Refine that explanation without looking for new information.","label":"response_refinement","language":"en"}
+{"text":"I want a better presented version of your last answer.","label":"response_refinement","language":"en"}
+{"text":"Improve the quality of the prior response while keeping its facts.","label":"response_refinement","language":"en"}
+{"text":"Present the earlier content again in a more organized way.","label":"response_refinement","language":"en"}
+{"text":"Adjust the text you just generated so that it communicates the central idea better.","label":"response_refinement","language":"en"}
+{"text":"Improve the existing answer without starting a different knowledge inquiry.","label":"response_refinement","language":"en"}
+{"text":"Work from your previous response and provide a more polished version without adding new facts.","label":"response_refinement","language":"en"}
+{"text":"Change the previous answer, not the subject.","label":"response_refinement","language":"en"}
+{"text":"Rephrase what you just said.","label":"response_refinement","language":"en"}
+{"text":"Explain it in a different way while keeping the same idea.","label":"response_refinement","language":"en"}
+{"text":"Modify your earlier response so it is clearer.","label":"response_refinement","language":"en"}
+{"text":"Give me another version of that same answer.","label":"response_refinement","language":"en"}
+{"text":"Improve the explanation you provided before.","label":"response_refinement","language":"en"}
+{"text":"Change the way you explained that content.","label":"response_refinement","language":"en"}
+{"text":"Draft the previous answer again.","label":"response_refinement","language":"en"}
+{"text":"Rewrite that text with a different structure.","label":"response_refinement","language":"en"}
+{"text":"Adjust your last response without starting a new subject.","label":"response_refinement","language":"en"}
+{"text":"¿Cuáles son las fuentes de esa respuesta?","label":"citation_request","language":"es"}
+{"text":"Muéstrame las citas que respaldan lo anterior.","label":"citation_request","language":"es"}
+{"text":"Dame las referencias usadas para responder.","label":"citation_request","language":"es"}
+{"text":"¿De qué documentos salió esa información?","label":"citation_request","language":"es"}
+{"text":"Necesito la evidencia citada en tu respuesta previa.","label":"citation_request","language":"es"}
+{"text":"Enumera los documentos que sustentan esas afirmaciones.","label":"citation_request","language":"es"}
+{"text":"Indica el origen de cada dato que mencionaste.","label":"citation_request","language":"es"}
+{"text":"Enséñame las referencias persistidas de la respuesta anterior.","label":"citation_request","language":"es"}
+{"text":"¿Puedes aportar las citas correspondientes?","label":"citation_request","language":"es"}
+{"text":"Quiero verificar las fuentes de lo que acabas de decir.","label":"citation_request","language":"es"}
+{"text":"Incluye los identificadores de las evidencias utilizadas.","label":"citation_request","language":"es"}
+{"text":"¿Qué referencias respaldan específicamente la conclusión anterior?","label":"citation_request","language":"es"}
+{"text":"Antes de continuar, necesito saber de dónde proviene la información presentada.","label":"citation_request","language":"es"}
+{"text":"No busques una respuesta nueva; solo entrega las fuentes asociadas a la respuesta existente.","label":"citation_request","language":"es"}
+{"text":"Para auditar lo respondido, lista las citas y documentos que ya utilizaste como evidencia.","label":"citation_request","language":"es"}
+{"text":"What are the sources for that answer?","label":"citation_request","language":"en"}
+{"text":"Show me the citations supporting the previous response.","label":"citation_request","language":"en"}
+{"text":"Give me the references used to answer.","label":"citation_request","language":"en"}
+{"text":"Which documents did that information come from?","label":"citation_request","language":"en"}
+{"text":"I need the evidence cited in your prior response.","label":"citation_request","language":"en"}
+{"text":"List the documents that support those statements.","label":"citation_request","language":"en"}
+{"text":"Identify the source of each fact you mentioned.","label":"citation_request","language":"en"}
+{"text":"Show the persisted references from the earlier answer.","label":"citation_request","language":"en"}
+{"text":"Can you provide the corresponding citations?","label":"citation_request","language":"en"}
+{"text":"I want to verify the sources for what you just said.","label":"citation_request","language":"en"}
+{"text":"Include the identifiers of the evidence that was used.","label":"citation_request","language":"en"}
+{"text":"Which references specifically support the preceding conclusion?","label":"citation_request","language":"en"}
+{"text":"Before continuing, I need to know where the presented information came from.","label":"citation_request","language":"en"}
+{"text":"Do not search for a new answer; only provide the sources associated with the existing response.","label":"citation_request","language":"en"}
+{"text":"For auditing purposes, list the citations and documents already used as evidence in your answer.","label":"citation_request","language":"en"}
+{"text":"Resume esta conversación.","label":"conversation_summary","language":"es"}
+{"text":"Dame un resumen de lo que hemos hablado.","label":"conversation_summary","language":"es"}
+{"text":"Sintetiza los puntos principales del diálogo.","label":"conversation_summary","language":"es"}
+{"text":"¿Cuál es la conclusión general de nuestra conversación?","label":"conversation_summary","language":"es"}
+{"text":"Prepara una recapitulación de las preguntas y respuestas anteriores.","label":"conversation_summary","language":"es"}
+{"text":"Condensa el intercambio hasta ahora.","label":"conversation_summary","language":"es"}
+{"text":"Enumera los temas que tratamos en esta sesión.","label":"conversation_summary","language":"es"}
+{"text":"Haz un resumen ejecutivo de esta conversación.","label":"conversation_summary","language":"es"}
+{"text":"Reúne en una síntesis las decisiones mencionadas durante el diálogo.","label":"conversation_summary","language":"es"}
+{"text":"Quiero recordar rápidamente qué discutimos.","label":"conversation_summary","language":"es"}
+{"text":"Extrae las ideas centrales de todos los turnos anteriores.","label":"conversation_summary","language":"es"}
+{"text":"Resume la conversación completa, no un documento externo.","label":"conversation_summary","language":"es"}
+{"text":"Dame una visión consolidada de lo conversado hasta este momento.","label":"conversation_summary","language":"es"}
+{"text":"Antes de terminar, prepara un resumen que cubra nuestras consultas, respuestas y conclusiones.","label":"conversation_summary","language":"es"}
+{"text":"Necesito una síntesis de esta sesión que distinga los temas discutidos y los puntos pendientes.","label":"conversation_summary","language":"es"}
+{"text":"Summarize this conversation.","label":"conversation_summary","language":"en"}
+{"text":"Give me a summary of what we have discussed.","label":"conversation_summary","language":"en"}
+{"text":"Condense the main points of the dialogue.","label":"conversation_summary","language":"en"}
+{"text":"What is the overall conclusion of our conversation?","label":"conversation_summary","language":"en"}
+{"text":"Prepare a recap of the earlier questions and answers.","label":"conversation_summary","language":"en"}
+{"text":"Condense the exchange so far.","label":"conversation_summary","language":"en"}
+{"text":"List the subjects we covered in this session.","label":"conversation_summary","language":"en"}
+{"text":"Create an executive summary of this conversation.","label":"conversation_summary","language":"en"}
+{"text":"Bring the decisions mentioned during the dialogue into one summary.","label":"conversation_summary","language":"en"}
+{"text":"I want a quick reminder of what we discussed.","label":"conversation_summary","language":"en"}
+{"text":"Extract the central ideas from all previous turns.","label":"conversation_summary","language":"en"}
+{"text":"Summarize the entire conversation, not an external document.","label":"conversation_summary","language":"en"}
+{"text":"Give me a consolidated view of the discussion up to this point.","label":"conversation_summary","language":"en"}
+{"text":"Before we finish, provide a summary covering our questions, answers, and conclusions.","label":"conversation_summary","language":"en"}
+{"text":"I need a session summary that separates the discussed topics from the remaining open points.","label":"conversation_summary","language":"en"}
+{"text":"Hola.","label":"non_knowledge_interaction","language":"es"}
+{"text":"Buenos días, ¿cómo estás?","label":"non_knowledge_interaction","language":"es"}
+{"text":"Gracias por la ayuda.","label":"non_knowledge_interaction","language":"es"}
+{"text":"Perfecto, entendido.","label":"non_knowledge_interaction","language":"es"}
+{"text":"De acuerdo.","label":"non_knowledge_interaction","language":"es"}
+{"text":"Eso es todo por ahora.","label":"non_knowledge_interaction","language":"es"}
+{"text":"Muy bien, continuemos después.","label":"non_knowledge_interaction","language":"es"}
+{"text":"Recibido.","label":"non_knowledge_interaction","language":"es"}
+{"text":"Excelente, muchas gracias.","label":"non_knowledge_interaction","language":"es"}
+{"text":"Está bien.","label":"non_knowledge_interaction","language":"es"}
+{"text":"No necesito nada más.","label":"non_knowledge_interaction","language":"es"}
+{"text":"Solo estaba saludando.","label":"non_knowledge_interaction","language":"es"}
+{"text":"Comprendido, puedes cerrar esta interacción.","label":"non_knowledge_interaction","language":"es"}
+{"text":"Aprecio la respuesta; no tengo otra consulta en este momento.","label":"non_knowledge_interaction","language":"es"}
+{"text":"Confirmo que leí el mensaje y no requiero información adicional.","label":"non_knowledge_interaction","language":"es"}
+{"text":"Hello.","label":"non_knowledge_interaction","language":"en"}
+{"text":"Good morning, how are you?","label":"non_knowledge_interaction","language":"en"}
+{"text":"Thanks for your help.","label":"non_knowledge_interaction","language":"en"}
+{"text":"Perfect, understood.","label":"non_knowledge_interaction","language":"en"}
+{"text":"All right.","label":"non_knowledge_interaction","language":"en"}
+{"text":"That is all for now.","label":"non_knowledge_interaction","language":"en"}
+{"text":"Very well, we can continue later.","label":"non_knowledge_interaction","language":"en"}
+{"text":"Received.","label":"non_knowledge_interaction","language":"en"}
+{"text":"Excellent, thank you very much.","label":"non_knowledge_interaction","language":"en"}
+{"text":"Okay then.","label":"non_knowledge_interaction","language":"en"}
+{"text":"I do not need anything else.","label":"non_knowledge_interaction","language":"en"}
+{"text":"I was only saying hello.","label":"non_knowledge_interaction","language":"en"}
+{"text":"Understood, you can close this interaction.","label":"non_knowledge_interaction","language":"en"}
+{"text":"I appreciate the answer and have no other question at this time.","label":"non_knowledge_interaction","language":"en"}
+{"text":"I confirm that I read the message and do not require additional information.","label":"non_knowledge_interaction","language":"en"}

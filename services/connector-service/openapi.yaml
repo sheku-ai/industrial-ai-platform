@@ -1,0 +1,39 @@
+openapi: 3.0.3
+info:
+  title: Connector Service API
+  version: 0.1.0
+paths:
+  /connectors:
+    get:
+      summary: List registered connectors
+    post:
+      summary: Register connector
+  /connector-instances:
+    get:
+      summary: List connector instances
+    post:
+      summary: Create connector instance
+  /connector-instances/{instance_id}/test:
+    post:
+      summary: Test connector instance
+      parameters:
+        - name: instance_id
+          in: path
+          required: true
+          schema:
+            type: string
+  /connector-instances/{instance_id}/sync:
+    post:
+      summary: Run connector sync
+      parameters:
+        - name: instance_id
+          in: path
+          required: true
+          schema:
+            type: string
+  /connector-sync-jobs:
+    get:
+      summary: List sync jobs
+  /connector-events:
+    get:
+      summary: List connector events

@@ -1,0 +1,7 @@
+{
+  "edition": "community",
+  "version": "1.6.0",
+  "alembic_head": "20260930_2870",
+  "ai_required": false,
+  "enterprise_dependency_required": false
+}

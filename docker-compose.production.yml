@@ -1,0 +1,40 @@
+# Production persistence override.
+#
+# Host paths are intentionally required and have no repository defaults.
+# This keeps deployment storage environment-specific without hardcoding a
+# customer, host, filesystem layout, or Docker data-root assumption.
+
+services:
+  api:
+    volumes:
+      - ${RUNTIME_DATA_PATH:?RUNTIME_DATA_PATH is required}:/runtime
+      - filesystem_storage_data:${CONTAINER_FILESYSTEM_STORAGE_ROOT:-/runtime/storage/filesystem}
+
+volumes:
+  postgres_data:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ${POSTGRES_DATA_PATH:?POSTGRES_DATA_PATH is required}
+
+  identity_postgres_data:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ${IDENTITY_POSTGRES_DATA_PATH:?IDENTITY_POSTGRES_DATA_PATH is required}
+
+  filesystem_storage_data:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ${FILESYSTEM_STORAGE_PATH:?FILESYSTEM_STORAGE_PATH is required}
+
+  minio_data:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ${MINIO_DATA_PATH:?MINIO_DATA_PATH is required}

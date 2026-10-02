@@ -1,0 +1,16 @@
+name: Filesystem Connector
+code: filesystem
+version: 0.1.0
+connector_type: filesystem
+entrypoint: filesystem_connector.py
+configuration_schema:
+  type: object
+  required:
+    - root_path
+  properties:
+    root_path:
+      type: string
+    include_patterns:
+      type: array
+    exclude_patterns:
+      type: array

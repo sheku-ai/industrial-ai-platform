@@ -1,0 +1,82 @@
+name: industrial-ai-platform-test
+
+services:
+  postgres-test:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: industrial_ai
+      POSTGRES_PASSWORD: industrial_ai
+      POSTGRES_DB: industrial_ai_test
+    tmpfs:
+      - /var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U industrial_ai -d industrial_ai_test"]
+      interval: 3s
+      timeout: 3s
+      retries: 30
+
+  identity-postgres-test:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: industrial_ai_identity
+      POSTGRES_PASSWORD: identity_test_only
+      POSTGRES_DB: industrial_ai_identity_test
+    tmpfs:
+      - /var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U industrial_ai_identity -d industrial_ai_identity_test"]
+      interval: 3s
+      timeout: 3s
+      retries: 30
+
+  migrator-test:
+    build:
+      context: ./apps/api
+      dockerfile: Dockerfile
+    environment:
+      DATABASE_URL: postgresql+psycopg://industrial_ai:industrial_ai@postgres-test:5432/industrial_ai_test
+    command: ["python", "migration_guard.py", "apply"]
+    depends_on:
+      postgres-test:
+        condition: service_healthy
+    restart: "no"
+
+  identity-migrator-test:
+    build:
+      context: ./apps/api
+      dockerfile: Dockerfile
+    environment:
+      IDENTITY_DATABASE_URL: postgresql+psycopg://industrial_ai_identity:identity_test_only@identity-postgres-test:5432/industrial_ai_identity_test
+    command: ["alembic", "-c", "identity_alembic.ini", "upgrade", "head"]
+    depends_on:
+      identity-postgres-test:
+        condition: service_healthy
+    restart: "no"
+
+  api-test:
+    build:
+      context: ./apps/api
+      dockerfile: Dockerfile
+      target: test
+      additional_contexts:
+        api_tests: ./apps/api/tests
+    environment:
+      DATABASE_URL: postgresql+psycopg://industrial_ai:industrial_ai@postgres-test:5432/industrial_ai_test
+      IDENTITY_DATABASE_URL: postgresql+psycopg://industrial_ai_identity:identity_test_only@identity-postgres-test:5432/industrial_ai_identity_test
+      TEST_DATABASE_URL: postgresql+psycopg://industrial_ai:industrial_ai@postgres-test:5432/industrial_ai_test
+      TEST_IDENTITY_DATABASE_URL: postgresql+psycopg://industrial_ai_identity:identity_test_only@identity-postgres-test:5432/industrial_ai_identity_test
+      AUTHENTICATION_REQUIRED: "true"
+      AUTH_COOKIE_SECURE: "false"
+      INDUSTRIAL_AI_STORAGE_FILESYSTEM_ROOT: /app/runtime/storage/filesystem
+      PYTHONPATH: /app
+      FEATURE_EMBEDDINGS_ENABLED: "false"
+      FEATURE_VECTOR_RETRIEVAL_ENABLED: "false"
+      FEATURE_WORKER_ENABLED: "false"
+      FEATURE_ENTERPRISE_EXTENSIONS_ENABLED: "false"
+    depends_on:
+      migrator-test:
+        condition: service_completed_successfully
+      identity-migrator-test:
+        condition: service_completed_successfully
+    command: ["python", "-c", "print('test runtime ready')"]
+    restart: "no"

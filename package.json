@@ -1,0 +1,20 @@
+{
+  "name": "industrial-ai-platform",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:portal": "npm --workspace apps/admin-portal run dev",
+    "build": "npm run build:portal",
+    "build:portal": "npm --workspace apps/admin-portal run build",
+    "lint": "npm run lint:portal",
+    "lint:portal": "npm --workspace apps/admin-portal run lint"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  }
+}

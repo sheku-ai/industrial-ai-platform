@@ -1,0 +1,29 @@
+{
+  "language": {
+    "selectorLabel": "Pilih bahasa antarmuka",
+    "preview": "Pratinjau"
+  },
+  "auth": {
+    "checkingTitle": "Memeriksa sesi Anda",
+    "checkingDescription": "Mengonfirmasi identitas Anda sebelum memuat ruang kerja.",
+    "unavailableTitle": "Layanan identitas tidak tersedia",
+    "unavailableDescription": "Sesi Anda tidak dapat divalidasi karena layanan identitas tidak tersedia. Coba lagi setelah layanan pulih.",
+    "loginTitle": "Masuk",
+    "loginDescription": "Gunakan akun platform Anda untuk mengakses ruang kerja yang diizinkan.",
+    "emailLabel": "Alamat email",
+    "passwordLabel": "Kata sandi",
+    "invalidCredentials": "Alamat email atau kata sandi salah.",
+    "rateLimited": "Terlalu banyak percobaan masuk. Tunggu sebentar lalu coba lagi.",
+    "loginUnavailable": "Layanan identitas tidak tersedia. Coba lagi nanti.",
+    "loginFailed": "Proses masuk tidak dapat diselesaikan. Coba lagi.",
+    "signingIn": "Sedang masuk…",
+    "signIn": "Masuk",
+    "signedInAs": "Masuk sebagai",
+    "signingOut": "Sedang keluar…",
+    "signOut": "Keluar",
+    "logoutUnavailable": "Proses keluar tidak dapat diselesaikan. Sesi Anda tetap aktif."
+  },
+  "ask": {
+    "noEvidence": "Basis pengetahuan tidak memiliki bukti yang cukup untuk menjawab pertanyaan ini."
+  }
+}

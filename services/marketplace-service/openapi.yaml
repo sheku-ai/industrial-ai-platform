@@ -1,0 +1,20 @@
+openapi: 3.0.3
+info:
+  title: Marketplace Service API
+  version: 0.1.0
+paths:
+  /packages:
+    get:
+      summary: List marketplace packages
+  /packages/{package_id}:
+    get:
+      summary: Package details
+  /packages/{package_id}/install:
+    post:
+      summary: Install package
+  /packages/{package_id}/upgrade:
+    post:
+      summary: Upgrade package
+  /installed-packages:
+    get:
+      summary: List installed packages

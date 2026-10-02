@@ -1,0 +1,28 @@
+{
+  "dataset_version": "community-intent-dataset-v1",
+  "target_model_version": "community-intent-v1",
+  "intent_catalog": [
+    "knowledge_query",
+    "contextual_follow_up",
+    "new_topic",
+    "response_refinement",
+    "citation_request",
+    "conversation_summary",
+    "non_knowledge_interaction"
+  ],
+  "languages": ["es", "en"],
+  "example_count": 290,
+  "per_label_counts": {
+    "knowledge_query": 50,
+    "contextual_follow_up": 50,
+    "new_topic": 50,
+    "response_refinement": 50,
+    "citation_request": 30,
+    "conversation_summary": 30,
+    "non_knowledge_interaction": 30
+  },
+  "per_language_counts": {
+    "es": 145,
+    "en": 145
+  }
+}

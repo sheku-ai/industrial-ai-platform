@@ -1,0 +1,44 @@
+openapi: 3.0.3
+info:
+  title: Organization Service API
+  version: 0.1.0
+paths:
+  /companies:
+    get:
+      summary: List companies
+      responses:
+        '200':
+          description: OK
+    post:
+      summary: Create company
+      responses:
+        '201':
+          description: Created
+  /organization-units:
+    get:
+      summary: List organization units
+      responses:
+        '200':
+          description: OK
+    post:
+      summary: Create organization unit
+      responses:
+        '201':
+          description: Created
+  /relationships:
+    post:
+      summary: Create relationship between organization units
+      responses:
+        '201':
+          description: Created
+  /roles:
+    get:
+      summary: List roles
+      responses:
+        '200':
+          description: OK
+    post:
+      summary: Create role
+      responses:
+        '201':
+          description: Created

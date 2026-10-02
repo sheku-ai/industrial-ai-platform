@@ -1,0 +1,29 @@
+{
+  "language": {
+    "selectorLabel": "Seleziona la lingua dell’interfaccia",
+    "preview": "Anteprima"
+  },
+  "auth": {
+    "checkingTitle": "Verifica della sessione",
+    "checkingDescription": "Conferma dell’identità prima di caricare l’area di lavoro.",
+    "unavailableTitle": "Servizio identità non disponibile",
+    "unavailableDescription": "Non è stato possibile convalidare la sessione perché il servizio identità non è disponibile. Riprova quando il servizio sarà ripristinato.",
+    "loginTitle": "Accedi",
+    "loginDescription": "Usa il tuo account della piattaforma per accedere all’area di lavoro autorizzata.",
+    "emailLabel": "Indirizzo e-mail",
+    "passwordLabel": "Parola d’accesso",
+    "invalidCredentials": "L’indirizzo e-mail o la password non sono corretti.",
+    "rateLimited": "Troppi tentativi di accesso. Attendi un momento e riprova.",
+    "loginUnavailable": "Il servizio identità non è disponibile. Riprova più tardi.",
+    "loginFailed": "Impossibile completare l’accesso. Riprova.",
+    "signingIn": "Accesso in corso…",
+    "signIn": "Accedi",
+    "signedInAs": "Accesso effettuato come",
+    "signingOut": "Disconnessione…",
+    "signOut": "Esci",
+    "logoutUnavailable": "Impossibile completare la disconnessione. La sessione rimane attiva."
+  },
+  "ask": {
+    "noEvidence": "La base di conoscenza non contiene evidenze sufficienti per rispondere a questa domanda."
+  }
+}

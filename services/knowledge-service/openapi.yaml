@@ -1,0 +1,20 @@
+openapi: 3.0.3
+info:
+  title: Knowledge Service API
+  version: 0.1.0
+paths:
+  /sources:
+    get:
+      summary: List sources
+  /chunks:
+    get:
+      summary: List chunks
+  /embeddings:
+    post:
+      summary: Create embeddings
+  /search:
+    post:
+      summary: Semantic search
+  /citations:
+    get:
+      summary: Retrieve citations

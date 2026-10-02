@@ -1,0 +1,67 @@
+openapi: 3.0.3
+info:
+  title: Document Service API
+  version: 0.1.0
+paths:
+  /document-types:
+    get:
+      summary: List document types
+      responses:
+        '200':
+          description: OK
+    post:
+      summary: Create document type
+      responses:
+        '201':
+          description: Created
+  /metadata-schemas:
+    get:
+      summary: List metadata schemas
+      responses:
+        '200':
+          description: OK
+    post:
+      summary: Create metadata schema
+      responses:
+        '201':
+          description: Created
+  /metadata-fields:
+    post:
+      summary: Create metadata field
+      responses:
+        '201':
+          description: Created
+  /collections:
+    get:
+      summary: List document collections
+      responses:
+        '200':
+          description: OK
+    post:
+      summary: Create document collection
+      responses:
+        '201':
+          description: Created
+  /documents:
+    get:
+      summary: List documents
+      responses:
+        '200':
+          description: OK
+    post:
+      summary: Create document record
+      responses:
+        '201':
+          description: Created
+  /documents/{document_id}/versions:
+    post:
+      summary: Add document version
+      parameters:
+        - name: document_id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '201':
+          description: Created

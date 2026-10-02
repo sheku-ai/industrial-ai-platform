@@ -1,0 +1,314 @@
+{
+  "language": {
+    "selectorLabel": "Sélectionner la langue de l’interface",
+    "preview": "Aperçu"
+  },
+  "auth": {
+    "checkingTitle": "Vérification de votre session",
+    "checkingDescription": "Confirmation de votre identité avant le chargement de l’espace de travail.",
+    "unavailableTitle": "Service d’identité indisponible",
+    "unavailableDescription": "Votre session n’a pas pu être validée car le service d’identité est indisponible. Réessayez une fois le service rétabli.",
+    "loginTitle": "Se connecter",
+    "loginDescription": "Utilisez votre compte de plateforme pour accéder à votre espace de travail autorisé.",
+    "emailLabel": "Adresse e-mail",
+    "passwordLabel": "Mot de passe",
+    "invalidCredentials": "L’adresse e-mail ou le mot de passe est incorrect.",
+    "rateLimited": "Trop de tentatives de connexion. Patientez un instant puis réessayez.",
+    "loginUnavailable": "Le service d’identité est indisponible. Réessayez plus tard.",
+    "loginFailed": "La connexion n’a pas pu aboutir. Réessayez.",
+    "signingIn": "Connexion…",
+    "signIn": "Se connecter",
+    "signedInAs": "Connecté en tant que",
+    "signingOut": "Déconnexion…",
+    "signOut": "Se déconnecter",
+    "logoutUnavailable": "La déconnexion n’a pas pu aboutir. Votre session reste active."
+  },
+  "common": {
+    "actions": {
+      "open": "Ouvrir",
+      "close": "Fermer",
+      "dismiss": "Ignorer",
+      "refresh": "Actualiser",
+      "refreshing": "Actualisation…",
+      "retry": "Réessayer",
+      "save": "Enregistrer",
+      "cancel": "Annuler",
+      "add": "Ajouter",
+      "remove": "Supprimer",
+      "review": "Examiner",
+      "configure": "Configurer",
+      "search": "Rechercher",
+      "send": "Envoyer",
+      "viewDetails": "Voir les détails"
+    },
+    "notAvailable": "Non disponible",
+    "notSelected": "Non sélectionné",
+    "none": "Aucun",
+    "yes": "Oui",
+    "no": "Non",
+    "loading": "Chargement…",
+    "noItems": "Aucun élément signalé.",
+    "technicalId": "Identifiant technique",
+    "advancedDetails": "Détails avancés",
+    "status": "État",
+    "name": "Nom",
+    "created": "Créé",
+    "updated": "Mis à jour",
+    "enabled": "Activé",
+    "ready": "Prêt"
+  },
+  "formats": {
+    "durationSeconds": {
+      "one": "{value} seconde",
+      "other": "{value} secondes"
+    }
+  },
+  "navigation": {
+    "productNavigation": "Navigation du produit",
+    "openNavigation": "Ouvrir la navigation",
+    "closeNavigation": "Fermer la navigation",
+    "dismissOverlay": "Fermer le volet de navigation",
+    "dailyWork": "Travail quotidien",
+    "manage": "Gestion",
+    "platform": "Plateforme",
+    "home": "Accueil",
+    "search": "Recherche",
+    "askAI": "Interroger l’IA",
+    "knowledge": "Connaissances",
+    "reports": "Rapports",
+    "integrations": "Intégrations",
+    "organization": "Organisation",
+    "usersAccess": "Utilisateurs et accès",
+    "aiConfiguration": "Configuration de l’IA",
+    "operations": "Opérations",
+    "governance": "Gouvernance",
+    "releaseReadiness": "Release et préparation",
+    "capabilityInventory": "Inventaire des capacités",
+    "assistantPermissionRequired": "Le principal sélectionné ne dispose pas de l’autorisation nécessaire pour l’assistant. Demandez à un administrateur de l’organisation de l’attribuer.",
+    "selectOrganizationForAssistant": "Sélectionnez une organisation pour évaluer l’accès à l’assistant.",
+    "preProduction": "Préproduction",
+    "aiOptional": "Services d’IA facultatifs"
+  },
+  "shell": {
+    "skipToContent": "Aller au contenu principal",
+    "activeOrganization": "Organisation active",
+    "organizationContext": "Contexte de l’organisation",
+    "organization": "Organisation",
+    "selectOrganization": "Sélectionner une organisation",
+    "refreshOrganizations": "Actualiser les organisations",
+    "loadingOrganizations": "Chargement…",
+    "accessSlow": "La validation des accès prend plus de temps que prévu. Vous pouvez continuer à utiliser l’espace de travail actuel.",
+    "noOrganizations": "Aucune organisation du produit ne correspond au filtre actuel. Créez ou activez une organisation avant d’utiliser les espaces de travail à portée organisationnelle.",
+    "preparingWorkspace": "Préparation de votre espace de travail",
+    "loadingAuthorizedOrganizations": "Chargement des organisations auxquelles vous êtes autorisé à accéder.",
+    "organizationsUnavailable": "Organisations indisponibles",
+    "getStarted": "Bien démarrer",
+    "chooseOrganization": "Choisissez une organisation",
+    "noOrganizationAvailable": "Aucune organisation disponible",
+    "chooseOrganizationHelp": "Sélectionnez l’organisation dans laquelle vous souhaitez travailler avant le chargement de ses données.",
+    "requestOrganizationHelp": "Demandez à un administrateur de la plateforme de créer une organisation ou de vous accorder l’accès.",
+    "stepOrganization": "Sélectionner ou créer une organisation",
+    "stepDocuments": "Ajouter des documents",
+    "stepKnowledge": "Rechercher dans les connaissances ou poser une question",
+    "refreshingAccess": "Actualisation de l’accès à l’organisation…"
+  },
+  "pages": {
+    "ai": {
+      "title": "Configuration de l’IA",
+      "description": "Configurez les assistants, modèles, prompts et garde-fous tout en conservant les services d’IA facultatifs."
+    },
+    "analytics": {
+      "section": "Gestion",
+      "title": "Rapports",
+      "description": "Examinez l’activité des documents, recherches et assistants, ainsi que les éléments qui nécessitent une attention."
+    },
+    "ask": {
+      "section": "Travail quotidien",
+      "title": "Interroger l’IA",
+      "description": "Posez des questions à l’aide d’assistants autorisés et des connaissances gouvernées de votre organisation active."
+    },
+    "connectors": {
+      "title": "Espace des connecteurs",
+      "description": "Gérez, inspectez et exploitez les intégrations de connecteurs avec gouvernance et traçabilité."
+    },
+    "documents": {
+      "section": "Travail quotidien",
+      "description": "Ajoutez et gérez les documents gouvernés qui alimentent Enterprise Search et les assistants."
+    },
+    "governance": {
+      "section": "Plateforme",
+      "title": "Gouvernance",
+      "description": "Inspectez la traçabilité, la responsabilité, les preuves du runtime, le lignage, la préparation des politiques et les diagnostics de conformité."
+    },
+    "integrations": {
+      "section": "Gestion",
+      "title": "Intégrations",
+      "description": "Examinez les capacités d’intégration, les connexions configurées et les API qui les prennent en charge."
+    },
+    "knowledge": {
+      "section": "Gestion",
+      "title": "Connaissances",
+      "description": "Consultez les connaissances gouvernées publiées et disponibles pour la recherche et Interroger l’IA."
+    },
+    "models": {
+      "title": "Centre des modèles et fournisseurs",
+      "description": "Inspectez l’inventaire des modèles, la préparation des fournisseurs, l’état de la passerelle, l’utilisation des assistants, les relations de politiques et les diagnostics de configuration de l’IA sans exposer les secrets."
+    },
+    "operations": {
+      "section": "Plateforme",
+      "title": "Opérations de la plateforme",
+      "description": "Examinez d’abord la santé opérationnelle, puis ouvrez les contrôles et diagnostics spécialisés nécessaires."
+    },
+    "organization": {
+      "title": "Organisation",
+      "description": "Choisissez la zone d’administration nécessaire sans charger des domaines de plateforme sans rapport."
+    },
+    "product": {
+      "title": "Revue de l’intégration produit",
+      "description": "Validez la plateforme comme un produit Enterprise SaaS unifié dans les espaces de travail, runtimes, tenant de référence et préparation à la production."
+    },
+    "production": {
+      "title": "Release et préparation",
+      "description": "Évaluez séparément l’éligibilité du candidat à la release et la préparation à la production au moyen d’états étayés par des preuves."
+    },
+    "runtime": {
+      "title": "Runtime d’exécution",
+      "description": "Inspectez les exécutions à portée du tenant, les tentatives, les baux, les événements de cycle de vie et les états d’échec."
+    },
+    "scheduler": {
+      "title": "Centre de planification et des services en arrière-plan",
+      "description": "Inspectez le planificateur, les workers, les baux, les nouvelles tentatives, les exécutions du runtime, les pipelines en arrière-plan et la préparation opérationnelle."
+    },
+    "search": {
+      "section": "Travail quotidien",
+      "title": "Recherche",
+      "description": "Trouvez des documents et des réponses dans les connaissances gouvernées de votre organisation active."
+    },
+    "security": {
+      "title": "Utilisateurs et accès",
+      "description": "Gérez les rôles, autorisations, politiques, affectations et accès organisationnels effectifs."
+    },
+    "workflows": {
+      "section": "Plateforme",
+      "title": "Inventaire des capacités",
+      "description": "Examinez les capacités disponibles sur la plateforme et les preuves qui étayent leur état actuel."
+    }
+  },
+  "ask": {
+    "conversation": "Discussion",
+    "conversationHelp": "Choisissez un assistant disponible, posez une question et examinez les sources utilisées dans la réponse.",
+    "newConversation": "Démarrer une nouvelle conversation",
+    "conversationTurns": {
+      "one": "Conversation avec {count} tour",
+      "other": "Conversation avec {count} tours"
+    },
+    "noAssistants": "Aucun assistant disponible",
+    "selectAssistant": "Sélectionnez un assistant",
+    "sourceAvailabilityPending": "La disponibilité des sources de l’assistant apparaîtra ici.",
+    "sourcesAvailable": {
+      "zero": "Aucune source de connaissances de l’organisation n’est disponible.",
+      "one": "Utilisation de {count} source de connaissances de l’organisation.",
+      "other": "Utilisation de {count} sources de connaissances de l’organisation."
+    },
+    "assignedSources": {
+      "one": "{count} source de connaissances est explicitement affectée à cet assistant.",
+      "other": "{count} sources de connaissances sont explicitement affectées à cet assistant."
+    },
+    "howProduced": "Comment la réponse est produite",
+    "providerRequired": "Cet assistant nécessite un fournisseur d’IA configuré.",
+    "providerOptional": "Un fournisseur d’IA externe est facultatif pour cet assistant.",
+    "searchCondition": "Enterprise Search n’est utilisé que lorsque l’assistant sélectionné le demande et que des connaissances interrogeables sont disponibles.",
+    "noMessages": "Aucun message dans cette conversation",
+    "noMessagesHelp": "Choisissez un assistant et envoyez un message pour commencer.",
+    "loadingConversation": "Chargement de la conversation enregistrée…",
+    "organization": "Organisation : {name}",
+    "messagePlaceholder": "Posez une question à partir des connaissances gouvernées de la plateforme",
+    "continueConversation": "Poursuivre la conversation",
+    "startConversation": "Démarrer la conversation",
+    "processing": "Traitement du message…",
+    "you": "Vous",
+    "noEvidence": "La base de connaissances ne contient pas suffisamment de preuves pour répondre à cette question.",
+    "errors": {
+      "selectOrganization": "Sélectionnez une organisation avant de charger une conversation.",
+      "historyUnavailable": "L’historique de la conversation n’a pas pu être chargé.",
+      "messageFailed": "Le message n’a pas pu être traité.",
+      "conversationStopped": "La conversation n’a pas pu continuer."
+    }
+  },
+  "status": {
+    "active": "Actif",
+    "blocked": "Bloqué",
+    "completed": "Terminé",
+    "configured": "Configuré",
+    "degraded": "Nécessite une attention",
+    "disabled": "Désactivé",
+    "enabled": "Activé",
+    "expired": "Expiré",
+    "failed": "Nécessite une attention",
+    "indexed": "Interrogeable",
+    "notConfigured": "Non configuré",
+    "notEligible": "Non éligible",
+    "notEvaluated": "Non évalué",
+    "pending": "En cours",
+    "processed": "Traité",
+    "published": "Publié",
+    "ready": "Prêt",
+    "recorded": "Enregistré",
+    "registered": "Référencé",
+    "searchable": "Interrogeable",
+    "unavailable": "Indisponible"
+  },
+  "feedback": {
+    "documentTypesLoading": "Chargement des types de documents depuis l’API…",
+    "documentTypesLoadFailed": "Impossible de charger les types de documents.",
+    "documentTypeDeleteFailed": "Le type de document n’a pas pu être supprimé.",
+    "documentTypesPersistFailed": "Impossible d’enregistrer les types de documents.",
+    "documentAdded": "Document ajouté. Son état de cycle de vie persistant est maintenant disponible ci-dessous.",
+    "documentAddFailed": "Le document n’a pas pu être ajouté.",
+    "selectOrganizationForOperations": "Sélectionnez une organisation pour charger l’état opérationnel.",
+    "operationalHealthUnavailable": "L’état de santé opérationnel n’est pas disponible.",
+    "operationalHealthRefreshFailed": "Impossible d’actualiser l’état de santé opérationnel.",
+    "reconciliationPreviewFailed": "L’aperçu de la réconciliation a échoué.",
+    "reconciliationRunFailed": "L’exécution de la réconciliation a échoué.",
+    "workersLoading": "Chargement des workers…",
+    "workersLoadFailed": "Impossible de charger les workers.",
+    "workerCommandFailed": "La commande du worker a échoué.",
+    "workerHistoryFailed": "Impossible de charger l’historique du worker.",
+    "workerSummaryLoading": "Chargement du résumé des workers…",
+    "workerSummaryFailed": "Impossible de charger le résumé des workers.",
+    "platformStateLoading": "Chargement de l’état de l’API de la plateforme…",
+    "defaultNodeLabel": "Nœud",
+    "platformStateLoadFailed": "Impossible de charger l’état de l’API de la plateforme.",
+    "organizationNodeRemoveFailed": "Le nœud de l’organisation n’a pas pu être supprimé.",
+    "organizationGraphPersistFailed": "Impossible d’enregistrer le graphe de l’organisation.",
+    "releaseGovernanceUnavailable": "La gouvernance des versions n’est pas disponible.",
+    "governedReleaseActionFailed": "L’action sur la version gouvernée n’a pas pu être terminée.",
+    "executionRuntimeLoading": "Chargement du runtime d’exécution…",
+    "runtimeExecutionsLoadFailed": "Impossible de charger les exécutions du runtime.",
+    "runtimeExecutionInspectFailed": "Impossible d’inspecter l’exécution du runtime.",
+    "runtimeExecutionsRefreshFailed": "Impossible d’actualiser les exécutions du runtime.",
+    "loadFailed": "Échec du chargement.",
+    "actionFailed": "L’action a échoué.",
+    "aiStudioRuntimeUnavailable": "Le runtime AI Studio n’est pas disponible.",
+    "askAiLoadFailed": "Ask AI n’a pas pu être chargé.",
+    "reportingAnalyticsUnavailable": "Le Centre de rapports et d’analyses n’est pas disponible.",
+    "connectorWorkspaceUnavailable": "L’espace de travail des connecteurs n’est pas disponible.",
+    "documentsLoadFailed": "Les documents n’ont pas pu être chargés.",
+    "governanceRuntimeUnavailable": "Le runtime du Centre de gouvernance n’est pas disponible.",
+    "integrationsUnavailable": "Les intégrations ne sont pas disponibles.",
+    "knowledgeLoadFailed": "Knowledge n’a pas pu être chargé.",
+    "modelProviderRuntimeUnavailable": "Le runtime du Centre des modèles et fournisseurs n’est pas disponible.",
+    "operationsRuntimeUnavailable": "Le runtime du Centre des opérations n’est pas disponible.",
+    "organizationsLoading": "Chargement des organisations...",
+    "administrationRuntimeUnavailable": "Le runtime d’administration n’est pas disponible.",
+    "organizationsUnavailable": "Les organisations ne sont pas disponibles.",
+    "accessEvaluationFailed": "L’accès n’a pas pu être évalué.",
+    "productIntegrationRuntimeUnavailable": "Le runtime d’intégration produit n’est pas disponible.",
+    "schedulerBackgroundServicesUnavailable": "Le Centre du planificateur et des services en arrière-plan n’est pas disponible.",
+    "selectOrganization": "Sélectionnez une organisation.",
+    "enterpriseSearchQueryFailed": "Enterprise Search n’a pas pu terminer la requête.",
+    "searchDiscoveryRuntimeUnavailable": "Le runtime Search Discovery n’est pas disponible.",
+    "securityRuntimeUnavailable": "Le runtime du Centre de sécurité n’est pas disponible.",
+    "capabilityInventoryUnavailable": "L’inventaire des capacités n’est pas disponible."
+  }
+}

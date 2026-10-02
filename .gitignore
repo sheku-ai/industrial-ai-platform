@@ -1,0 +1,31 @@
+node_modules/
+.next/
+dist/
+build/
+.env
+.env.local
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+postgres_data/
+minio_data/
+ollama_data/
+.coverage
+htmlcov/
+coverage.xml
+runtime/
+!apps/api/runtime/
+!apps/api/runtime/intent-models/
+!apps/api/runtime/intent-models/community-intent-v1/
+apps/api/runtime/intent-models/community-intent-v1/*
+!apps/api/runtime/intent-models/community-intent-v1/.gitkeep
+
+# Generated TypeScript build state
+apps/admin-portal/tsconfig.tsbuildinfo
+
+# Local validation artifacts
+artifacts/
+
+/compose.effective.yml

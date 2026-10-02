@@ -1,0 +1,29 @@
+{
+  "language": {
+    "selectorLabel": "Chọn ngôn ngữ giao diện",
+    "preview": "Xem trước"
+  },
+  "auth": {
+    "checkingTitle": "Đang kiểm tra phiên của bạn",
+    "checkingDescription": "Đang xác nhận danh tính trước khi tải không gian làm việc.",
+    "unavailableTitle": "Dịch vụ danh tính không khả dụng",
+    "unavailableDescription": "Không thể xác thực phiên vì dịch vụ danh tính không khả dụng. Hãy thử lại sau khi dịch vụ được khôi phục.",
+    "loginTitle": "Đăng nhập",
+    "loginDescription": "Dùng tài khoản nền tảng để truy cập không gian làm việc được cấp quyền.",
+    "emailLabel": "Địa chỉ email",
+    "passwordLabel": "Mật khẩu",
+    "invalidCredentials": "Địa chỉ email hoặc mật khẩu không đúng.",
+    "rateLimited": "Quá nhiều lần đăng nhập. Hãy chờ một lát rồi thử lại.",
+    "loginUnavailable": "Dịch vụ danh tính không khả dụng. Hãy thử lại sau.",
+    "loginFailed": "Không thể hoàn tất đăng nhập. Hãy thử lại.",
+    "signingIn": "Đang đăng nhập…",
+    "signIn": "Đăng nhập",
+    "signedInAs": "Đã đăng nhập với",
+    "signingOut": "Đang đăng xuất…",
+    "signOut": "Đăng xuất",
+    "logoutUnavailable": "Không thể hoàn tất đăng xuất. Phiên của bạn vẫn đang hoạt động."
+  },
+  "ask": {
+    "noEvidence": "Cơ sở tri thức không có đủ bằng chứng để trả lời câu hỏi này."
+  }
+}

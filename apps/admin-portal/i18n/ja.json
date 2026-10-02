@@ -1,0 +1,333 @@
+{
+  "language": {
+    "selectorLabel": "表示言語を選択",
+    "preview": "プレビュー"
+  },
+  "auth": {
+    "checkingTitle": "セッションを確認しています",
+    "checkingDescription": "ワークスペースを読み込む前に本人確認を行っています。",
+    "unavailableTitle": "IDサービスを利用できません",
+    "unavailableDescription": "IDサービスを利用できないため、セッションを検証できませんでした。サービスの復旧後にもう一度お試しください。",
+    "loginTitle": "サインイン",
+    "loginDescription": "プラットフォームのアカウントを使用して、許可されたワークスペースにアクセスします。",
+    "emailLabel": "メールアドレス",
+    "passwordLabel": "パスワード",
+    "invalidCredentials": "メールアドレスまたはパスワードが正しくありません。",
+    "rateLimited": "サインイン試行回数が多すぎます。しばらく待ってからもう一度お試しください。",
+    "loginUnavailable": "IDサービスを利用できません。後でもう一度お試しください。",
+    "loginFailed": "サインインを完了できませんでした。もう一度お試しください。",
+    "signingIn": "サインインしています…",
+    "signIn": "サインイン",
+    "signedInAs": "サインイン中",
+    "signingOut": "サインアウトしています…",
+    "signOut": "サインアウト",
+    "logoutUnavailable": "サインアウトを完了できませんでした。セッションは引き続き有効です。"
+  },
+  "common": {
+    "actions": {
+      "open": "開く",
+      "close": "閉じる",
+      "dismiss": "閉じる",
+      "refresh": "更新",
+      "refreshing": "更新中…",
+      "retry": "再試行",
+      "save": "保存",
+      "cancel": "キャンセル",
+      "add": "追加",
+      "remove": "削除",
+      "review": "確認",
+      "configure": "設定",
+      "search": "検索",
+      "send": "送信",
+      "viewDetails": "詳細を表示"
+    },
+    "notAvailable": "利用不可",
+    "notSelected": "未選択",
+    "none": "なし",
+    "yes": "はい",
+    "no": "いいえ",
+    "loading": "読み込み中…",
+    "noItems": "報告された項目はありません。",
+    "technicalId": "技術 ID",
+    "advancedDetails": "詳細情報",
+    "status": "ステータス",
+    "actionColumn": "操作",
+    "name": "名前",
+    "type": "種類",
+    "code": "コード",
+    "description": "説明",
+    "created": "作成日時",
+    "updated": "更新日時",
+    "enabled": "有効",
+    "ready": "準備完了"
+  },
+  "formats": {
+    "durationSeconds": {
+      "one": "{value} 秒",
+      "other": "{value} 秒"
+    },
+    "durationMinutes": {
+      "one": "{value} 分",
+      "other": "{value} 分"
+    }
+  },
+  "navigation": {
+    "productNavigation": "製品ナビゲーション",
+    "openNavigation": "ナビゲーションを開く",
+    "closeNavigation": "ナビゲーションを閉じる",
+    "dismissOverlay": "ナビゲーションオーバーレイを閉じる",
+    "dailyWork": "日常業務",
+    "manage": "管理",
+    "administration": "システム管理",
+    "platform": "プラットフォーム",
+    "home": "ホーム",
+    "documents": "ドキュメント",
+    "search": "検索",
+    "askAI": "AI に質問",
+    "knowledge": "ナレッジ",
+    "reports": "レポート",
+    "integrations": "連携",
+    "organization": "組織",
+    "usersAccess": "ユーザーとアクセス",
+    "aiConfiguration": "AI 設定",
+    "operations": "運用",
+    "governance": "ガバナンス",
+    "releaseReadiness": "リリースと準備状況",
+    "capabilityInventory": "機能インベントリ",
+    "assistantPermissionRequired": "選択したプリンシパルに必要なアシスタント権限がありません。組織管理者に割り当てを依頼してください。",
+    "selectOrganizationForAssistant": "アシスタントへのアクセスを評価する組織を選択してください。",
+    "preProduction": "本番前",
+    "aiOptional": "AI サービスは任意"
+  },
+  "shell": {
+    "skipToContent": "メインコンテンツへ移動",
+    "activeOrganization": "現在の組織",
+    "organizationContext": "組織コンテキスト",
+    "organization": "組織",
+    "selectOrganization": "組織を選択",
+    "refreshOrganizations": "組織を更新",
+    "loadingOrganizations": "読み込み中…",
+    "accessSlow": "アクセス検証に通常より時間がかかっています。現在のワークスペースは引き続き利用できます。",
+    "noOrganizations": "現在のフィルターに一致する製品組織がありません。組織スコープのワークスペースを使用する前に、組織を作成または有効化してください。",
+    "preparingWorkspace": "ワークスペースを準備しています",
+    "loadingAuthorizedOrganizations": "アクセス権のある組織を読み込んでいます。",
+    "organizationsUnavailable": "組織を利用できません",
+    "getStarted": "はじめに",
+    "chooseOrganization": "組織を選択",
+    "noOrganizationAvailable": "利用可能な組織がありません",
+    "chooseOrganizationHelp": "組織データを読み込む前に、作業する組織を選択してください。",
+    "requestOrganizationHelp": "プラットフォーム管理者に組織の作成またはアクセス権の付与を依頼してください。",
+    "stepOrganization": "組織を選択または作成",
+    "stepDocuments": "ドキュメントを追加",
+    "stepKnowledge": "ナレッジを検索または質問",
+    "refreshingAccess": "組織アクセスを更新中…"
+  },
+  "pages": {
+    "ai": {
+      "section": "システム管理",
+      "title": "AI 設定",
+      "description": "AI サービスを任意のまま、アシスタント、モデル、プロンプト、ガードレールを設定します。"
+    },
+    "analytics": {
+      "section": "管理",
+      "title": "レポート",
+      "description": "ドキュメント、検索、アシスタントの活動と、対応が必要な項目を確認します。"
+    },
+    "ask": {
+      "section": "日常業務",
+      "title": "AI に質問",
+      "description": "認可されたアシスタントと現在の組織の管理されたナレッジを使って質問します。"
+    },
+    "connectors": {
+      "title": "コネクターワークスペース",
+      "description": "ガバナンスとトレーサビリティを備えたコネクター連携を管理、確認、運用します。"
+    },
+    "documents": {
+      "section": "日常業務",
+      "title": "ドキュメント",
+      "description": "Enterprise Search とアシスタントを支える管理対象ドキュメントを追加、管理します。"
+    },
+    "governance": {
+      "section": "プラットフォーム",
+      "title": "ガバナンス",
+      "description": "トレーサビリティ、説明責任、ランタイム証拠、リネージ、ポリシー準備状況、コンプライアンス診断を確認します。"
+    },
+    "integrations": {
+      "section": "管理",
+      "title": "連携",
+      "description": "連携機能、設定済み接続、およびそれらを支える API を確認します。"
+    },
+    "knowledge": {
+      "section": "管理",
+      "title": "ナレッジ",
+      "description": "公開され、検索と AI への質問に利用できる管理対象ナレッジを確認します。"
+    },
+    "models": {
+      "title": "モデル・プロバイダーセンター",
+      "description": "モデル一覧、プロバイダー準備状況、ゲートウェイ状態、アシスタント利用状況、ポリシー関係、シークレットを保護した AI 設定診断を確認します。"
+    },
+    "operations": {
+      "section": "プラットフォーム",
+      "title": "プラットフォーム運用",
+      "description": "まず運用状態を確認し、必要に応じて専門的なランタイム制御と診断を開きます。"
+    },
+    "organization": {
+      "section": "システム管理",
+      "title": "組織",
+      "description": "無関係なプラットフォームドメインを読み込まずに、必要な管理領域を選択します。"
+    },
+    "product": {
+      "title": "製品統合レビュー",
+      "description": "ワークスペース、ランタイム、参照テナント、本番準備状況を通じて、統合された Enterprise SaaS 製品としてプラットフォームを検証します。"
+    },
+    "production": {
+      "title": "リリースと準備状況",
+      "description": "リリース候補の適格性と本番準備状況を、証拠に基づく別々の製品状態として評価します。"
+    },
+    "runtime": {
+      "title": "実行ランタイム",
+      "description": "テナントスコープの実行、試行、リース、ライフサイクルイベント、障害状態を確認します。"
+    },
+    "scheduler": {
+      "title": "スケジューラー・バックグラウンドサービスセンター",
+      "description": "スケジューラー、ワーカー、リース、再試行、ランタイム実行、バックグラウンドパイプライン、運用準備状況を確認します。"
+    },
+    "search": {
+      "section": "日常業務",
+      "title": "検索",
+      "description": "現在の組織の管理対象ナレッジからドキュメントと回答を検索します。"
+    },
+    "security": {
+      "section": "システム管理",
+      "title": "ユーザーとアクセス",
+      "description": "ロール、権限、ポリシー、割り当て、実効的な組織アクセスを管理します。"
+    },
+    "workflows": {
+      "section": "プラットフォーム",
+      "title": "機能インベントリ",
+      "description": "プラットフォームで利用できる機能と現在の状態を支える証拠を確認します。"
+    }
+  },
+  "ask": {
+    "conversation": "会話チャット",
+    "conversationHelp": "利用可能なアシスタントを選び、質問して、回答に使用された情報源を確認します。",
+    "assistant": "アシスタント",
+    "conversationLabel": "会話",
+    "newConversation": "新しい会話を開始",
+    "conversationTurns": {
+      "one": "{count} ターンの会話",
+      "other": "{count} ターンの会話"
+    },
+    "noAssistants": "利用可能なアシスタントがありません",
+    "selectAssistant": "アシスタントを選択",
+    "sourceAvailabilityPending": "アシスタントの情報源の利用状況がここに表示されます。",
+    "sourcesAvailable": {
+      "zero": "利用可能な組織ナレッジソースがありません。",
+      "one": "組織ナレッジソースを {count} 件使用しています。",
+      "other": "組織ナレッジソースを {count} 件使用しています。"
+    },
+    "assignedSources": {
+      "one": "このアシスタントにはナレッジソースが {count} 件明示的に割り当てられています。",
+      "other": "このアシスタントにはナレッジソースが {count} 件明示的に割り当てられています。"
+    },
+    "howProduced": "回答の生成方法",
+    "providerRequired": "このアシスタントには設定済みの AI プロバイダーが必要です。",
+    "providerOptional": "このアシスタントでは外部 AI プロバイダーは任意です。",
+    "searchCondition": "Enterprise Search は、選択したアシスタントが要求し、検索可能なナレッジがある場合にのみ使用されます。",
+    "noMessages": "この会話にはメッセージがありません",
+    "noMessagesHelp": "アシスタントを選び、メッセージを送信して開始してください。",
+    "loadingConversation": "保存済みの会話を読み込み中…",
+    "organization": "組織：{name}",
+    "message": "メッセージ",
+    "messagePlaceholder": "管理されたプラットフォームナレッジを使って質問する",
+    "continueConversation": "会話を続ける",
+    "startConversation": "会話を開始",
+    "processing": "メッセージを処理中…",
+    "sources": "情報源",
+    "sourceTitle": "情報源 {number}",
+    "you": "あなた",
+    "noEvidence": "この質問に回答するための十分な証拠がナレッジベースにありません。",
+    "errors": {
+      "selectOrganization": "会話を読み込む前に組織を選択してください。",
+      "historyUnavailable": "会話履歴を読み込めませんでした。",
+      "messageFailed": "メッセージを処理できませんでした。",
+      "conversationStopped": "会話を続行できませんでした。"
+    }
+  },
+  "status": {
+    "active": "有効",
+    "blocked": "ブロック",
+    "completed": "完了",
+    "configured": "設定済み",
+    "degraded": "要対応",
+    "disabled": "無効",
+    "enabled": "有効",
+    "expired": "期限切れ",
+    "failed": "要対応",
+    "indexed": "検索可能",
+    "notConfigured": "未設定",
+    "notEligible": "対象外",
+    "notEvaluated": "未評価",
+    "pending": "進行中",
+    "processed": "処理済み",
+    "published": "公開済み",
+    "ready": "準備完了",
+    "recorded": "保存済み",
+    "registered": "登録済み",
+    "searchable": "検索可能",
+    "unavailable": "利用不可"
+  },
+  "feedback": {
+    "documentTypesLoading": "API からドキュメントタイプを読み込んでいます…",
+    "documentTypesLoadFailed": "ドキュメントタイプを読み込めませんでした。",
+    "documentTypeDeleteFailed": "ドキュメントタイプを削除できませんでした。",
+    "documentTypesPersistFailed": "ドキュメントタイプを保存できませんでした。",
+    "documentAdded": "ドキュメントを追加しました。永続化されたライフサイクル状態を以下で確認できます。",
+    "documentAddFailed": "ドキュメントを追加できませんでした。",
+    "selectOrganizationForOperations": "運用状態を読み込む組織を選択してください。",
+    "operationalHealthUnavailable": "運用状態を利用できません。",
+    "operationalHealthRefreshFailed": "運用状態を更新できませんでした。",
+    "reconciliationPreviewFailed": "照合プレビューに失敗しました。",
+    "reconciliationRunFailed": "照合の実行に失敗しました。",
+    "workersLoading": "ワーカーを読み込んでいます…",
+    "workersLoadFailed": "ワーカーを読み込めませんでした。",
+    "workerCommandFailed": "ワーカーコマンドに失敗しました。",
+    "workerHistoryFailed": "ワーカー履歴を読み込めませんでした。",
+    "workerSummaryLoading": "ワーカー概要を読み込んでいます…",
+    "workerSummaryFailed": "ワーカー概要を読み込めませんでした。",
+    "platformStateLoading": "プラットフォーム API の状態を読み込んでいます…",
+    "defaultNodeLabel": "ノード",
+    "platformStateLoadFailed": "プラットフォーム API の状態を読み込めませんでした。",
+    "organizationNodeRemoveFailed": "組織ノードを削除できませんでした。",
+    "organizationGraphPersistFailed": "組織グラフを保存できませんでした。",
+    "releaseGovernanceUnavailable": "リリースガバナンスを利用できません。",
+    "governedReleaseActionFailed": "管理対象リリースの操作を完了できませんでした。",
+    "executionRuntimeLoading": "実行ランタイムを読み込んでいます…",
+    "runtimeExecutionsLoadFailed": "ランタイム実行を読み込めませんでした。",
+    "runtimeExecutionInspectFailed": "ランタイム実行を確認できませんでした。",
+    "runtimeExecutionsRefreshFailed": "ランタイム実行を更新できませんでした。",
+    "loadFailed": "読み込みに失敗しました。",
+    "actionFailed": "操作に失敗しました。",
+    "aiStudioRuntimeUnavailable": "AI Studio ランタイムを利用できません。",
+    "askAiLoadFailed": "Ask AI を読み込めませんでした。",
+    "reportingAnalyticsUnavailable": "レポートと分析センターを利用できません。",
+    "connectorWorkspaceUnavailable": "コネクターワークスペースを利用できません。",
+    "documentsLoadFailed": "ドキュメントを読み込めませんでした。",
+    "governanceRuntimeUnavailable": "ガバナンスセンターのランタイムを利用できません。",
+    "integrationsUnavailable": "統合を利用できません。",
+    "knowledgeLoadFailed": "Knowledge を読み込めませんでした。",
+    "modelProviderRuntimeUnavailable": "モデルとプロバイダーセンターのランタイムを利用できません。",
+    "operationsRuntimeUnavailable": "オペレーションセンターのランタイムを利用できません。",
+    "organizationsLoading": "組織を読み込んでいます...",
+    "administrationRuntimeUnavailable": "管理ランタイムを利用できません。",
+    "organizationsUnavailable": "組織を利用できません。",
+    "accessEvaluationFailed": "アクセスを評価できませんでした。",
+    "productIntegrationRuntimeUnavailable": "製品統合ランタイムを利用できません。",
+    "schedulerBackgroundServicesUnavailable": "スケジューラーとバックグラウンドサービスセンターを利用できません。",
+    "selectOrganization": "組織を選択してください。",
+    "enterpriseSearchQueryFailed": "Enterprise Search はクエリを完了できませんでした。",
+    "searchDiscoveryRuntimeUnavailable": "Search Discovery ランタイムを利用できません。",
+    "securityRuntimeUnavailable": "セキュリティセンターのランタイムを利用できません。",
+    "capabilityInventoryUnavailable": "機能インベントリを利用できません。"
+  }
+}
